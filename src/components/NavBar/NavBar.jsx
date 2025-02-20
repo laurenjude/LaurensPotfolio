@@ -4,7 +4,7 @@ import "./NavBar.css";
 import logoo from "../../assets/Assets/Logos/mylogggo.png";
 import Modal from "react-modal";
 import { MdCancel } from "react-icons/md";
-import phoneget from "../../assets/Assets/Logos/CALLME.png";
+import phoneget from "../../assets/Assets/Social Icons/Lauren .png";
 import phonecall from "../../assets/Assets/Logos/phonecall.png";
 import whatsapp from "../../assets/Assets/Logos/whatsappoo.png";
 import cv from "../../assets/Assets/Logos/resume.png";
