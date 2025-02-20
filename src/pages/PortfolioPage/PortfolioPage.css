@@ -1,0 +1,2428 @@
+.portfolioPage {
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  z-index: 0;
+}
+
+.proBigTi {
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--Primary-Text);
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolioPage {
+    padding-top: 60px;
+  }
+
+  .proBigTi {
+    font-size: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolioPage {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .proBigTi {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+/* =================================PROJECT 1================================== */
+
+.project1 {
+  display: flex;
+  justify-content: start;
+}
+
+.portfolio1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sideleft img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sideright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+}
+
+.sideright h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sideright .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: start;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro1 {
+  position: absolute;
+  right: 40px;
+  top: 300px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .illupro1 {
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro1 {
+    top: 200px;
+    width: 150px;
+  }
+
+  .project1 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .illupro1 {
+    display: none;
+  }
+
+  .portfolio1 {
+    gap: 20px;
+  }
+
+  .portfolio1 .sideleft img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio1 .sideright {
+    gap: 10px;
+  }
+
+  .portfolio1 .sideright h3 {
+    font-size: 20px;
+  }
+
+  .portfolio1 .sideright .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio1 .techno {
+    gap: 10px;
+  }
+
+  .portfolio1 .livep,
+  .portfolio1 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolio1 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio1 .sideright .prodes {
+    font-size: 8px;
+  }
+
+  .project1 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 2================================== */
+
+.project2 {
+  display: flex;
+  justify-content: end;
+  margin-top: 150px;
+}
+
+.portfolio2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sider2 img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sidel2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 30px;
+}
+
+.sidel2 h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sidel2 .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: end;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.illupro2 {
+  position: absolute;
+  left: 100px;
+  top: 1000px;
+  width: 200px;
+  animation: rotateAnimation 30s linear infinite;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+  .illupro2 {
+    bottom: -100;
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro2 {
+    top: 1000px;
+    width: 150px;
+    left: 0;
+  }
+
+  .project2 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio2 {
+    gap: 20px;
+  }
+
+  .portfolio2 .sider2 img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio2 .sidel2 {
+    gap: 10px;
+  }
+
+  .portfolio2 .sidel2 h3 {
+    font-size: 20px;
+  }
+
+  .portfolio2 .sidel2 .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio2 .techno {
+    gap: 10px;
+  }
+
+  .portfolio2 .livep,
+  .portfolio2 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .illupro2 {
+    display: none;
+  }
+
+  .portfolio2 {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+
+  .portfolio2 .sidel2 .prodes {
+    font-size: 8px;
+  }
+
+  .project2 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 3================================== */
+
+.project3 {
+  display: flex;
+  justify-content: start;
+  margin-top: 150px;
+}
+
+.portfolio3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sideleft img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sideright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+}
+
+.sideright h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sideright .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: start;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro3 {
+  position: absolute;
+  right: 50px;
+  top: 1350px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .illupro3 {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro3 {
+    display: none;
+  }
+
+  .project3 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio3 {
+    gap: 20px;
+  }
+
+  .portfolio3 .sideleft img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio3 .sideright {
+    gap: 10px;
+  }
+
+  .portfolio3 .sideright h3 {
+    font-size: 20px;
+  }
+
+  .portfolio3 .sideright .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio3 .techno {
+    gap: 10px;
+  }
+
+  .portfolio3 .livep,
+  .portfolio3 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolio3 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio3 .sideright .prodes {
+    font-size: 8px;
+  }
+
+  .project3 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 4================================== */
+
+.project4 {
+  display: flex;
+  justify-content: end;
+  margin-top: 150px;
+}
+
+.portfolio4 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sider2 img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sidel2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 30px;
+}
+
+.sidel2 h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sidel2 .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: end;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro4 {
+  position: absolute;
+  left: 100px;
+  top: 2000px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro4 {
+    top: 2000px;
+    right: 0px;
+    width: 50px;
+  }
+
+  .project4 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio4 {
+    gap: 20px;
+  }
+
+  .portfolio4 .sider2 img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio4 .sidel2 {
+    gap: 10px;
+  }
+
+  .portfolio4 .sidel2 h3 {
+    font-size: 20px;
+  }
+
+  .portfolio4 .sidel2 .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio4 .techno {
+    gap: 10px;
+  }
+
+  .portfolio4 .livep,
+  .portfolio4 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .illupro4 {
+    display: none;
+  }
+
+  .portfolio4 {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+
+  .portfolio4 .sidel2 .prodes {
+    font-size: 8px;
+  }
+
+  .project4 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 5================================== */
+
+.project5 {
+  display: flex;
+  justify-content: start;
+  margin-top: 150px;
+}
+
+.portfolio5 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sideleft img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sideright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+}
+
+.sideright h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sideright .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: start;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro5 {
+  position: absolute;
+  right: 100px;
+  top: 2500px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .illupro5 {
+    width: 150px;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro5 {
+    bottom: -2150px;
+  }
+
+  .project5 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio5 {
+    gap: 20px;
+  }
+
+  .portfolio5 .sideleft img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio5 .sideright {
+    gap: 10px;
+  }
+
+  .portfolio5 .sideright h3 {
+    font-size: 20px;
+  }
+
+  .portfolio5 .sideright .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio5 .techno {
+    gap: 10px;
+  }
+
+  .portfolio5 .livep,
+  .portfolio5 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .illupro5 {
+    display: none;
+  }
+
+  .portfolio5 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio5 .sideright .prodes {
+    font-size: 8px;
+  }
+
+  .project5 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 6================================== */
+
+.project6 {
+  display: flex;
+  justify-content: end;
+  margin-top: 150px;
+}
+
+.portfolio6 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sider2 img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sidel2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 30px;
+}
+
+.sidel2 h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sidel2 .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: end;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro6 {
+  position: absolute;
+  right: 200px;
+  top: 3000px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro6 {
+    bottom: -2630px;
+    width: 50px;
+  }
+
+  .project6 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio6 {
+    gap: 20px;
+  }
+
+  .portfolio6 .sider2 img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio6 .sidel2 {
+    gap: 10px;
+  }
+
+  .portfolio6 .sidel2 h3 {
+    font-size: 20px;
+  }
+
+  .portfolio6 .sidel2 .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio6 .techno {
+    gap: 10px;
+  }
+
+  .portfolio6 .livep,
+  .portfolio6 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .illupro6 {
+    display: none;
+  }
+
+  .portfolio6 {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+
+  .portfolio6 .sidel2 .prodes {
+    font-size: 8px;
+  }
+
+  .project6 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 7================================== */
+
+.project7 {
+  display: flex;
+  justify-content: start;
+  margin-top: 150px;
+}
+
+.portfolio7 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sideleft img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sideright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+}
+
+.sideright h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sideright .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: start;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro7 {
+  position: absolute;
+  left: 200px;
+  top: 3900px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro7 {
+    bottom: -3430px;
+    width: 100px;
+    left: 0;
+  }
+
+  .project7 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio7 {
+    gap: 20px;
+  }
+
+  .portfolio7 .sideleft img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio7 .sideright {
+    gap: 10px;
+  }
+
+  .portfolio7 .sideright h3 {
+    font-size: 20px;
+  }
+
+  .portfolio7 .sideright .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio7 .techno {
+    gap: 10px;
+  }
+
+  .portfolio7 .livep,
+  .portfolio7 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .illupro7 {
+    display: none;
+  }
+
+  .portfolio7 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio7 .sideright .prodes {
+    font-size: 8px;
+  }
+
+  .project7 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 8================================== */
+
+.project8 {
+  display: flex;
+  justify-content: end;
+  margin-top: 150px;
+}
+
+.portfolio8 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sider2 img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sidel2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 30px;
+}
+
+.sidel2 h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sidel2 .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: end;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro8 {
+  position: absolute;
+  right: 10px;
+  top: 4500px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro8 {
+    bottom: -4130px;
+    width: 50px;
+  }
+
+  .project8 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio8 {
+    gap: 20px;
+  }
+
+  .portfolio8 .sider2 img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio8 .sidel2 {
+    gap: 10px;
+  }
+
+  .portfolio8 .sidel2 h3 {
+    font-size: 20px;
+  }
+
+  .portfolio8 .sidel2 .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio8 .techno {
+    gap: 10px;
+  }
+
+  .portfolio8 .livep,
+  .portfolio8 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .illupro8 {
+    display: none;
+  }
+
+  .portfolio8 {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+
+  .portfolio8 .sidel2 .prodes {
+    font-size: 8px;
+  }
+
+  .project8 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 9================================== */
+
+.project9 {
+  display: flex;
+  justify-content: start;
+  margin-top: 150px;
+}
+
+.portfolio9 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sideleft img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sideright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+}
+
+.sideright h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sideright .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: start;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro9 {
+  position: absolute;
+  left: 200px;
+  top: 4800px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro9 {
+    bottom: -4630px;
+    width: 150px;
+  }
+
+  .project9 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .illupro9 {
+    display: none;
+  }
+
+  .portfolio9 {
+    gap: 20px;
+  }
+
+  .portfolio9 .sideleft img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio9 .sideright {
+    gap: 10px;
+  }
+
+  .portfolio9 .sideright h3 {
+    font-size: 20px;
+  }
+
+  .portfolio9 .sideright .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio9 .techno {
+    gap: 10px;
+  }
+
+  .portfolio9 .livep,
+  .portfolio9 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolio9 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio9 .sideright .prodes {
+    font-size: 8px;
+  }
+
+  .project9 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 10================================== */
+
+.project10 {
+  display: flex;
+  justify-content: end;
+  margin-top: 150px;
+}
+
+.portfolio10 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sider2 img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sidel2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 30px;
+}
+
+.sidel2 h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sidel2 .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: end;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro10 {
+  position: absolute;
+  right: 200px;
+  top: 5500px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .illupro10 {
+    width: 150px;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro10 {
+    bottom: -5130px;
+    width: 100px;
+  }
+
+  .project10 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .illupro10 {
+    display: none;
+  }
+
+  .portfolio10 {
+    gap: 20px;
+  }
+
+  .portfolio10 .sider2 img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio10 .sidel2 {
+    gap: 10px;
+  }
+
+  .portfolio10 .sidel2 h3 {
+    font-size: 20px;
+  }
+
+  .portfolio10 .sidel2 .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio10 .techno {
+    gap: 10px;
+  }
+
+  .portfolio10 .livep,
+  .portfolio10 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolio10 {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+
+  .portfolio10 .sidel2 .prodes {
+    font-size: 8px;
+  }
+
+  .project10 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 11================================== */
+
+.project11 {
+  display: flex;
+  justify-content: start;
+  margin-top: 150px;
+}
+
+.portfolio11 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sideleft img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sideright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+}
+
+.sideright h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sideright .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: start;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.illupro11 {
+  position: absolute;
+  right: 700px;
+  top: 6500px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .illupro11 {
+    width: 350px;
+    right: 500px;
+    bottom: -6170px;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro11 {
+    width: 250px;
+    right: 500px;
+    bottom: -6270px;
+  }
+
+  .project11 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .illupro11 {
+    display: none;
+  }
+
+  .portfolio11 {
+    gap: 20px;
+  }
+
+  .portfolio11 .sideleft img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio11 .sideright {
+    gap: 10px;
+  }
+
+  .portfolio11 .sideright h3 {
+    font-size: 20px;
+  }
+
+  .portfolio11 .sideright .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio11 .techno {
+    gap: 10px;
+  }
+
+  .portfolio11 .livep,
+  .portfolio11 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolio11 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio11 .sideright .prodes {
+    font-size: 8px;
+  }
+
+  .project11 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 12================================== */
+
+.project12 {
+  display: flex;
+  justify-content: end;
+  margin-top: 150px;
+}
+
+.portfolio12 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sider2 img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sidel2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 30px;
+}
+
+.sidel2 h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sidel2 .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: end;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .illupro12 {
+    display: none;
+  }
+
+  .project12 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio12 {
+    gap: 20px;
+  }
+
+  .portfolio12 .sider2 img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio12 .sidel2 {
+    gap: 10px;
+  }
+
+  .portfolio12 .sidel2 h3 {
+    font-size: 20px;
+  }
+
+  .portfolio12 .sidel2 .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio12 .techno {
+    gap: 10px;
+  }
+
+  .portfolio12 .livep,
+  .portfolio12 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolio12 {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+
+  .portfolio12 .sidel2 .prodes {
+    font-size: 8px;
+  }
+
+  .project12 {
+    margin-top: 50px;
+  }
+}
+
+/* =================================PROJECT 13================================== */
+
+.project13 {
+  display: flex;
+  justify-content: start;
+  margin-top: 150px;
+}
+
+.portfolio13 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  border-image-slice: 1;
+  border-radius: 20px; /* Applies to all corners */
+  padding: 20px;
+  width: 850px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.sideleft img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sideright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+}
+
+.sideright h3 {
+  color: var(--Primary-Text);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.sideright .prodes {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Primary-Text);
+  text-align: start;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.techno {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.techno .httt {
+  color: var(--Accent-Sky-Blue);
+  margin-bottom: 0;
+}
+
+.techno .csss {
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.techno .jsss {
+  color: var(--Secondary-Text);
+  margin-bottom: 0;
+}
+
+.techno .appp {
+  color: orange;
+  margin-bottom: 0;
+}
+
+.butview {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.livep {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.vcode {
+  background-color: var(--Accent-Sky-Blue);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .project13 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .illupro13 {
+    display: none;
+  }
+
+  .portfolio13 {
+    gap: 20px;
+  }
+
+  .portfolio13 .sideleft img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .portfolio13 .sideright {
+    gap: 10px;
+  }
+
+  .portfolio13 .sideright h3 {
+    font-size: 20px;
+  }
+
+  .portfolio13 .sideright .prodes {
+    font-size: 10px;
+  }
+
+  .portfolio13 .techno {
+    gap: 10px;
+  }
+
+  .portfolio13 .livep,
+  .portfolio13 .vcode {
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolio13 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio13 .sideright .prodes {
+    font-size: 8px;
+  }
+
+  .project13 {
+    margin-top: 50px;
+  }
+}

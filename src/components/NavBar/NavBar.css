@@ -1,0 +1,223 @@
+.all-nav {
+  background-color: #2e0854;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  margin-bottom: 0;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--Primary-Text);
+}
+
+.myAlogo {
+  width: 30px;
+}
+
+.nav-lin {
+  display: flex;
+  gap: 20px;
+}
+
+.hi,
+.about,
+.skills,
+.portfoloo,
+.contacta {
+  color: var(--Primary-Text);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.get {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.burger {
+  background-color: var(--Accent-Purple);
+}
+
+.loname {
+  gap: 1px;
+}
+
+@media only screen and (max-width: 767px) {
+  .name {
+    font-size: 18px;
+  }
+
+  .myAlogo {
+    width: 30px;
+  }
+
+  .loname {
+    gap: 10px;
+  }
+}
+
+/* ========================MODAL============================= */
+
+.navmomo {
+  background: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+  width: 1000px;
+  height: 550px;
+  border-radius: 30px;
+  border: 0;
+  margin: 40px auto;
+  position: relative;
+  z-index: 10;
+}
+
+.navmodcan {
+  margin-bottom: 50px;
+  text-align: end;
+  padding: 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.phoneall {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.phonenum img {
+  width: 500px;
+}
+
+.contacticco img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.contacticco .yodcv {
+  width: 85px;
+  margin-right: 10px;
+}
+
+.conttite p {
+  font-size: 60px;
+  color: var(--Primary-Text);
+  font-weight: 700;
+  text-align: center;
+}
+
+.firstpicons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.secpicons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Styles for tablets */
+@media only screen and (max-width: 1030px) {
+  .navmomo {
+    width: 90%;
+    max-width: none;
+    height: 475px;
+    margin-top: 80px;
+  }
+
+  .conttite p {
+    font-size: 40px;
+  }
+
+  .phonenum img {
+    width: 400px;
+  }
+
+  .phoneall {
+    gap: 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contacticco img {
+    width: 80px;
+  }
+
+  .contacticco .yodcv {
+    width: 65px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .phonenum img {
+    width: 300px;
+  }
+
+  .navmomo {
+    width: 90%;
+    max-width: none;
+    height: 400px;
+    margin-top: 120px;
+  }
+}
+
+/* Styles for phones */
+@media only screen and (max-width: 767px) {
+  .navmomo {
+    width: 90%;
+    height: 450px;
+  }
+
+  .conttite p {
+    font-size: 30px;
+  }
+
+  .phoneall {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+  }
+
+  .contacticco img {
+    width: 40px;
+    gap: 10px;
+  }
+
+  .firstpicons {
+    gap: 15px;
+    margin-right: 50px;
+  }
+
+  .secpicons {
+    gap: 10px;
+    margin-left: 50px;
+  }
+
+  .contacticco .yodcv {
+    width: 32.5px;
+  }
+
+  .navmodcan {
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+h3,
+.based,
+.parab,
+.bout,
+p,
+h5,
+button,
+.hi,
+.about,
+.skills,
+.portfoloo,
+.contacta,
+.get {
+  font-family: "Montserrat", sans-serif;
+}
+
+.namebig,
+.abme,
+.slillsbig,
+.bigpro,
+h4,
+.projectsec p,
+.conbig,
+.proBigTi,
+.errbig,
+.name,
+.conttite p,
+.footnamea {
+  font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+  --Background: #121212;
+  --Primary-Text: #ffffff;
+  --Secondary-Text: #a0a0a0;
+  --Accent-Purple: #7b1fa2;
+  --Accent-Sky-Blue: #039be5;
+}
+
+#root {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to left, #121212, #901296);
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: linear-gradient(to top, #121212, #901296);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ffffff;
+  cursor: grabbing;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to top, #121212, #901296);
+}
