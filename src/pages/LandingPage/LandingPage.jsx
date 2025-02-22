@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "./LandingPage.css";
 import Lottie from "react-lottie";
@@ -51,6 +51,7 @@ import gitty from "../../assets/Assets/Logos/github.png";
 import scorem from "../../assets/Assets/Logos/checkmark.png";
 import { Link } from "react-scroll";
 import ScrollReveal from "scrollreveal";
+import emailjs from "@emailjs/browser";
 
 // =================================================
 
@@ -228,6 +229,52 @@ const LandingPage = () => {
     },
   };
 
+  // Making the sumbmition button functionional
+
+  const handleSeendClick = (e) => {
+    e.preventDefault();
+    const templateParams = {
+      name: formDataTwo.name,
+      email: formDataTwo.email,
+      message: formDataTwo.message,
+    };
+    emailjs
+      .send(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        templateParams,
+        "YOUR_PUBLIC_KEY"
+      )
+      .then((response) => {
+        console.log("Email sent successfully!", response);
+        alert("Message sent Successfully!.").catch((error) => {
+          console.error("Error sending email:", error);
+          alert("failed to send message.");
+        });
+      });
+  };
+
+  // const MyOomponent = () => {
+  //   const formRef = useRef();
+
+  //   const handleSubmit = (e) => {
+  //     e.preventDefault();
+  //     emailjs.sendForm(
+  //       "YOUR_SERVICE_ID",
+  //       "YOUR_TEMPLATE_ID",
+  //       formRef.current,
+  //       "YOUR_PUBLIC_KEY"
+  //     )
+  //     .then((result) => {
+  //       console.log("Email sent:", result.text);
+  //       alert("Message sent Successfully!");
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error:", error);
+  //       alert("Failed to send message.");
+  //     });
+  //   };
+
   // =================DOWNLOAD RESUME==============================
 
   const downloadResume = () => {
@@ -243,12 +290,12 @@ const LandingPage = () => {
 
   // ==================EMAIL LINK=====================
 
-  const emailAddress = "https://www.laurenjude9@gmail.com";
+  const emailAddress = "mailto:laurenjude9@gmail.com";
 
   // ===================LINKEDIN LINK======================
 
   const linkedinProfileUrl =
-    "https://www.linkedin.com/in/lauren-jude-ifeloju-ogonno-97b90b1a2?.com";
+    "https://www.linkedin.com/in/lauren-jude-ifeloju-ogonno-97b90b1a2";
 
   // =======================GITHUB LINK============================
 
