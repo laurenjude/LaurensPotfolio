@@ -51,7 +51,7 @@ import gitty from "../../assets/Assets/Logos/github.png";
 import scorem from "../../assets/Assets/Logos/checkmark.png";
 import { Link } from "react-scroll";
 import ScrollReveal from "scrollreveal";
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
 
 // =================================================
 
@@ -143,9 +143,10 @@ const LandingPage = () => {
   // ======================MESSAGE SENT MODAL=====================
   const [isMessageSent, setIsMessageSent] = useState(false);
 
-  const handleSendClick = () => {
+  const handleSendClick = (e) => {
+    e.preventDefault();
     if (validateForm()) {
-      setIsMessageSent(true);
+      handleSeendClick(e); // Call the email sending function
     } else {
       console.log("Form validation failed");
     }
@@ -158,8 +159,7 @@ const LandingPage = () => {
   const handleSubmitTwo = (event) => {
     event.preventDefault();
     if (validateForm()) {
-      console.log("Form data submitted:", formDataTwo);
-      setIsMessageSent(true);
+      handleSeendClick(event); // Call the email sending function
     } else {
       console.log("Form validation failed");
     }
@@ -229,8 +229,7 @@ const LandingPage = () => {
     },
   };
 
-  // Making the sumbmition button functionional
-
+  // ======================EMAILJS FUNCTION=====================
   const handleSeendClick = (e) => {
     e.preventDefault();
     const templateParams = {
@@ -238,42 +237,24 @@ const LandingPage = () => {
       email: formDataTwo.email,
       message: formDataTwo.message,
     };
+
     emailjs
       .send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_p3nnq86", // Your EmailJS service ID
+        "template_9p2nh1m", // Your EmailJS template ID
         templateParams,
-        "YOUR_PUBLIC_KEY"
+        "jl2lw_MByDsAqRBv1" // Your EmailJS user ID
       )
       .then((response) => {
         console.log("Email sent successfully!", response);
-        alert("Message sent Successfully!.").catch((error) => {
-          console.error("Error sending email:", error);
-          alert("failed to send message.");
-        });
+        toast.success("Message sent successfully!"); // Use toast for success message
+        setIsMessageSent(true); // Open the success modal
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+        toast.error("Failed to send message. Please try again."); // Use toast for error message
       });
   };
-
-  // const MyOomponent = () => {
-  //   const formRef = useRef();
-
-  //   const handleSubmit = (e) => {
-  //     e.preventDefault();
-  //     emailjs.sendForm(
-  //       "YOUR_SERVICE_ID",
-  //       "YOUR_TEMPLATE_ID",
-  //       formRef.current,
-  //       "YOUR_PUBLIC_KEY"
-  //     )
-  //     .then((result) => {
-  //       console.log("Email sent:", result.text);
-  //       alert("Message sent Successfully!");
-  //     })
-  //     .catch((error) => {
-  //       console.error("Error:", error);
-  //       alert("Failed to send message.");
-  //     });
-  //   };
 
   // =================DOWNLOAD RESUME==============================
 
@@ -310,11 +291,14 @@ const LandingPage = () => {
       <div className="hero-section">
         <div
           className="landing-content text-start reveal-from-top"
-          data-sr="enter top 100px over 1s"
-        >
+          data-sr="enter top 100px over 1s">
           <h3>FULL-STACK WEB DEVELOPER</h3>
           <div className="loothi">
-            <Lottie options={defaultOptions} height={70} width={200} />
+            <Lottie
+              options={defaultOptions}
+              height={70}
+              width={200}
+            />
           </div>
           <p className="name-big">I'm Lauren, Jude</p>
           <p className="based">
@@ -326,21 +310,31 @@ const LandingPage = () => {
           </p>
         </div>
         <div className="illustration ">
-          <img className="mebkone" src={mebkone} alt="" />
+          <img
+            className="mebkone"
+            src={mebkone}
+            alt=""
+          />
         </div>
 
         <div
           className="reveal-from-bottom mediv"
-          data-sr="enter bottom 30px over 1s"
-        >
-          <img className="meone" src={meone} alt="" />
-          <img className="rotating-img" src={illus1} alt="" />
+          data-sr="enter bottom 30px over 1s">
+          <img
+            className="meone"
+            src={meone}
+            alt=""
+          />
+          <img
+            className="rotating-img"
+            src={illus1}
+            alt=""
+          />
         </div>
 
         <div
           className="social-links reveal-from-bottom"
-          data-sr="enter bottom 30px over 1s"
-        >
+          data-sr="enter bottom 30px over 1s">
           <img
             className="cv-icon"
             src={resume}
@@ -348,33 +342,50 @@ const LandingPage = () => {
             onClick={downloadResume}
           />
 
-          <a href={`${emailAddress}`} target="_blank" rel="noopener noref">
-            <img src={mail} alt="mail" />
+          <a
+            href={`${emailAddress}`}
+            target="_blank"
+            rel="noopener noref">
+            <img
+              src={mail}
+              alt="mail"
+            />
           </a>
 
           <a
             href={linkedinProfileUrl}
             target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={linkedin} alt="linkedin" />
+            rel="noopener noreferrer">
+            <img
+              src={linkedin}
+              alt="linkedin"
+            />
           </a>
-          <a href={githubProfileUrl} target="_blank" rel="thcgv tdhgcvn">
-            <img src={github} alt="github" />
+          <a
+            href={githubProfileUrl}
+            target="_blank"
+            rel="thcgv tdhgcvn">
+            <img
+              src={github}
+              alt="github"
+            />
           </a>
         </div>
       </div>
 
       {/* ============================================================================ */}
 
-      <section className="asec" id="section2">
-        <p className="abme reveal-from-top" data-sr="enter top 100px over 1s">
+      <section
+        className="asec"
+        id="section2">
+        <p
+          className="abme reveal-from-top"
+          data-sr="enter top 100px over 1s">
           About me
         </p>
         <div
           className="aboutme reveal-from-bottom"
-          data-sr="enter bottom 100px over 1s"
-        >
+          data-sr="enter bottom 100px over 1s">
           <img
             src={mecoding}
             alt=""
@@ -396,8 +407,7 @@ const LandingPage = () => {
 
             <div
               className="aboutnum reveal-from-bottom"
-              data-sr="enter bottom 100px over 1s"
-            >
+              data-sr="enter bottom 100px over 1s">
               <div className="abnum1">
                 <p className="plusnum">2+</p>
                 <p className="texnum">Years of Experience</p>
@@ -411,7 +421,9 @@ const LandingPage = () => {
                 <p className="texnum">Global Customers</p>
               </div>
             </div>
-            <button className="bout border-0" onClick={openNavModal}>
+            <button
+              className="bout border-0"
+              onClick={openNavModal}>
               Get in touch
             </button>
           </div>
@@ -419,25 +431,36 @@ const LandingPage = () => {
             isOpen={isNavModalOpen}
             onRequestClose={closeNavModal}
             contentLabel="GetInTouch"
-            className="navmomo"
-          >
+            className="navmomo">
             <div className="getmodal">
               <div className="navmodcan">
                 <MdCancel onClick={closeNavModal} />
               </div>
               <div className="phoneall">
                 <div className="phonenum">
-                  <img src={phoneget} alt="phone" />
+                  <img
+                    src={phoneget}
+                    alt="phone"
+                  />
                 </div>
                 <div className="contacticco">
                   <div className="conttite">
                     <p>Get in touch</p>
                   </div>
                   <div className="firstpicons">
-                    <img src={phonecall} alt="phonecall" />
+                    <img
+                      src={phonecall}
+                      alt="phonecall"
+                    />
 
-                    <a href={whatsap} target="_blank" rel="noopr noref">
-                      <img src={whatsapp} alt="whatsapp" />
+                    <a
+                      href={whatsap}
+                      target="_blank"
+                      rel="noopr noref">
+                      <img
+                        src={whatsapp}
+                        alt="whatsapp"
+                      />
                     </a>
 
                     <img
@@ -451,25 +474,31 @@ const LandingPage = () => {
                     <a
                       href={`${emailAddress}`}
                       target="_blank"
-                      rel="noopener noref"
-                    >
-                      <img src={mailer} alt="email" />
+                      rel="noopener noref">
+                      <img
+                        src={mailer}
+                        alt="email"
+                      />
                     </a>
 
                     <a
                       href={linkedinProfileUrl}
                       target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={linkindon} alt="linkedin" />
+                      rel="noopener noreferrer">
+                      <img
+                        src={linkindon}
+                        alt="linkedin"
+                      />
                     </a>
 
                     <a
                       href={githubProfileUrl}
                       target="_blank"
-                      rel="thcgv tdhgcvn"
-                    >
-                      <img src={gitty} alt="github" />
+                      rel="thcgv tdhgcvn">
+                      <img
+                        src={gitty}
+                        alt="github"
+                      />
                     </a>
                   </div>
                 </div>
@@ -478,25 +507,38 @@ const LandingPage = () => {
           </Modal>
         </div>
 
-        <img className="ball " src={circle3d} alt="" />
-        <img className="illu2" src={illu2} alt="" />
+        <img
+          className="ball "
+          src={circle3d}
+          alt=""
+        />
+        <img
+          className="illu2"
+          src={illu2}
+          alt=""
+        />
         <img
           className="dot3 reveal-from-bottom"
           data-sr="enter bottom 30px over 1s"
           src={dot3}
           alt=""
         />
-        <img className="ex4" src={ex4} alt="" />
+        <img
+          className="ex4"
+          src={ex4}
+          alt=""
+        />
       </section>
 
       {/* ======================================================================= */}
 
-      <section className="m-skills" id="section3">
+      <section
+        className="m-skills"
+        id="section3">
         <div className="skillarr">
           <p
             className="slillsbig reveal-from-top"
-            data-sr="enter top 30px over 1s"
-          >
+            data-sr="enter top 30px over 1s">
             My Skills
           </p>
           <img
@@ -509,31 +551,42 @@ const LandingPage = () => {
         <div className="pro-skills">
           <div
             className="prim-s reveal-from-top"
-            data-sr="enter top 100px over 1s"
-          >
+            data-sr="enter top 100px over 1s">
             <div className="html">
-              <img src={html} alt="html" />
+              <img
+                src={html}
+                alt="html"
+              />
               <div>
                 <h5>HTML</h5>
                 <p>3 Years Experience</p>
               </div>
             </div>
             <div className="css">
-              <img src={css} alt="css" />
+              <img
+                src={css}
+                alt="css"
+              />
               <div>
                 <h5>CSS</h5>
                 <p>2 Years Experience</p>
               </div>
             </div>
             <div className="java">
-              <img src={java} alt="javascript" />
+              <img
+                src={java}
+                alt="javascript"
+              />
               <div>
                 <h5>JAVASCRIPT</h5>
                 <p>2 Years Experience</p>
               </div>
             </div>
             <div className="react">
-              <img src={react} alt="react" />
+              <img
+                src={react}
+                alt="react"
+              />
               <div>
                 <h5>REACT.JS</h5>
                 <p>1 years Experience</p>
@@ -543,31 +596,42 @@ const LandingPage = () => {
 
           <div
             className="seco-s reveal-from-bottom"
-            data-sr="enter bottom 100px over 1s"
-          >
+            data-sr="enter bottom 100px over 1s">
             <div className="python">
-              <img src={python} alt="python" />
+              <img
+                src={python}
+                alt="python"
+              />
               <div>
                 <h5>PYTHON</h5>
                 <p>6 Months Experience</p>
               </div>
             </div>
             <div className="node">
-              <img src={node} alt="node" />
+              <img
+                src={node}
+                alt="node"
+              />
               <div>
                 <h5>NODE.JS</h5>
                 <p>1 year Experience</p>
               </div>
             </div>
             <div className="vue">
-              <img src={vue} alt="vue" />
+              <img
+                src={vue}
+                alt="vue"
+              />
               <div>
                 <h5>VUE.JS</h5>
                 <p>6 Months Experience</p>
               </div>
             </div>
             <div className="sass">
-              <img src={sass} alt="sass" />
+              <img
+                src={sass}
+                alt="sass"
+              />
               <div>
                 <h5>SASS</h5>
                 <p>3 Months Experience</p>
@@ -579,16 +643,22 @@ const LandingPage = () => {
 
       {/* ======================================================================== */}
 
-      <section className="projectsec" id="section4">
-        <p className="bigpro reveal-from-top" data-sr="enter top 30px over 1s">
+      <section
+        className="projectsec"
+        id="section4">
+        <p
+          className="bigpro reveal-from-top"
+          data-sr="enter top 30px over 1s">
           My Projects
         </p>
         <div className="proo">
           <div
             className="web1 reveal-from-right"
-            data-sr="enter right 50px over 1s"
-          >
-            <img src={web7} alt="web7" />
+            data-sr="enter right 50px over 1s">
+            <img
+              src={web7}
+              alt="web7"
+            />
             <div className="prodep1 mt-4">
               <p>Baby-Place</p>
               <h5>02/15/2024</h5>
@@ -596,19 +666,23 @@ const LandingPage = () => {
           </div>
           <div
             className="web2 reveal-from-left"
-            data-sr="enter left 50px over 1s"
-          >
+            data-sr="enter left 50px over 1s">
             <div className="prodep2 mb-4">
               <p>DESSERTS-APP</p>
               <h5>03/17/2024</h5>
             </div>
-            <img src={web2} alt="web2" />
+            <img
+              src={web2}
+              alt="web2"
+            />
           </div>
           <div
             className="web3 reveal-from-right"
-            data-sr="enter right 50px over 1s"
-          >
-            <img src={web3} alt="web3" />
+            data-sr="enter right 50px over 1s">
+            <img
+              src={web3}
+              alt="web3"
+            />
             <div className="prodep3 mt-4">
               <p>GLOBE-APP</p>
               <h5>03/29/2024</h5>
@@ -616,17 +690,24 @@ const LandingPage = () => {
           </div>
           <div
             className="web4 reveal-from-left"
-            data-sr="enter left 50px over 1s"
-          >
+            data-sr="enter left 50px over 1s">
             <div className="prodep4 mb-4">
               <p>Project Name</p>
               <h5>Date</h5>
             </div>
-            <img src={web5} alt="web5" />
+            <img
+              src={web5}
+              alt="web5"
+            />
           </div>
         </div>
-        <Link to="top" smooth={true} duration={500}>
-          <button className="morepro border-0" onClick={handleProjectsClick}>
+        <Link
+          to="top"
+          smooth={true}
+          duration={500}>
+          <button
+            className="morepro border-0"
+            onClick={handleProjectsClick}>
             View more Projects{" "}
             <span>
               <FaAngleDoubleRight />
@@ -639,24 +720,43 @@ const LandingPage = () => {
           src={arrowddown}
           alt=""
         />
-        <img className="dotgrey" src={dot4} alt="dot4" />
-        <img className="dotver" src={dot2} alt="dot2" />
-        <img className="illu3" src={illu3} alt="" />
-        <img className="cross1" src={cross1} alt="cross1" />
+        <img
+          className="dotgrey"
+          src={dot4}
+          alt="dot4"
+        />
+        <img
+          className="dotver"
+          src={dot2}
+          alt="dot2"
+        />
+        <img
+          className="illu3"
+          src={illu3}
+          alt=""
+        />
+        <img
+          className="cross1"
+          src={cross1}
+          alt="cross1"
+        />
       </section>
 
       {/* =========================================================================== */}
 
-      <section className="contactme" id="section5">
-        <p className="conbig reveal-from-top" data-sr="enter top 100px over 1s">
+      <section
+        className="contactme"
+        id="section5">
+        <p
+          className="conbig reveal-from-top"
+          data-sr="enter top 100px over 1s">
           Contact me
         </p>
         <form
           action=""
           className="formfill reveal-from-bottom"
           data-sr="enter top 100px over 1s"
-          onSubmit={handleSubmitTwo}
-        >
+          onSubmit={handleSubmitTwo}>
           <div className="fname">
             <p>Full name *</p>
             <input
@@ -686,38 +786,55 @@ const LandingPage = () => {
               rows="10"
               placeholder="Enter your message ..."
               value={formDataTwo.message}
-              onChange={handleChangeTwo}
-            ></textarea>
+              onChange={handleChangeTwo}></textarea>
           </div>
-          <button className="sendfill border-0" onClick={handleSendClick}>
+          <button
+            className="sendfill border-0"
+            onClick={handleSendClick}>
             Submit{"   "}
             <span>
               <BsFillSendFill />
             </span>
-            <Toaster position="bottom-right" reverseOrder={false} />
+            <Toaster
+              position="bottom-right"
+              reverseOrder={false}
+            />
           </button>
         </form>
         <Modal
           isOpen={isMessageSent}
           onRequestClose={closeMessageSent}
           contentLabel="From Data Modal"
-          className="modal4"
-        >
+          className="modal4">
           <div className="messcar">
             <div className="scor">
-              <img className="checkm" src={scorem} alt="" />
+              <img
+                className="checkm"
+                src={scorem}
+                alt=""
+              />
             </div>
             <div className="ymh">
               <p className="bigms">Message Sent</p>
               <p className="succc">Your message has been successfully sent.</p>
-              <button onClick={closeMessageSent} className="border-0">
+              <button
+                onClick={closeMessageSent}
+                className="border-0">
                 Close
               </button>
             </div>
           </div>
         </Modal>
-        <img className="leftfill" src={fillback1} alt="leftfill" />
-        <img className="rightfill" src={fillback2} alt="rightfill" />
+        <img
+          className="leftfill"
+          src={fillback1}
+          alt="leftfill"
+        />
+        <img
+          className="rightfill"
+          src={fillback2}
+          alt="rightfill"
+        />
       </section>
     </div>
   );
