@@ -90,7 +90,9 @@ const PortfolioPage = () => {
 
   return (
     <div className="portfolioPage container">
-      <p className="proBigTi reveal-from-top" data-sr="enter top 100px over 1s">
+      <p
+        className="proBigTi reveal-from-top"
+        data-sr="enter top 100px over 1s">
         My Projects{" "}
       </p>
 
@@ -99,10 +101,12 @@ const PortfolioPage = () => {
       <section className="project1">
         <div
           className="portfolio1 reveal-from-right"
-          data-sr="enter right 100px over 1s"
-        >
+          data-sr="enter right 100px over 1s">
           <div className="sideleft">
-            <img src={project1} alt="project1" />
+            <img
+              src={project1}
+              alt="project1"
+            />
           </div>
           <div className="sideright">
             <h3 className="text-start">BABY-PLACE "Home-page"</h3>
@@ -123,11 +127,17 @@ const PortfolioPage = () => {
               <p className="appp">API</p>
             </div>
             <div className="butview">
-              <a href={sunnySideSite} target="_blank" rel="thdhgcvn">
+              <a
+                href={sunnySideSite}
+                target="_blank"
+                rel="thdhgcvn">
                 <button className="livep">Live Preview</button>
               </a>
 
-              <a href={sunnySideCode} target="_blank" rel="ytdczxhrh">
+              <a
+                href={sunnySideCode}
+                target="_blank"
+                rel="ytdczxhrh">
                 <button className="vcode">
                   View Code{" "}
                   <span>
@@ -138,7 +148,11 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
-        <img className="illupro1" src={illupro1} alt="" />
+        <img
+          className="illupro1"
+          src={illupro1}
+          alt=""
+        />
       </section>
 
       {/* =========================PROJECT 2=========================== */}
@@ -146,8 +160,7 @@ const PortfolioPage = () => {
       <section className="project2">
         <div
           className="portfolio2 reveal-from-left"
-          data-sr="enter left 100px over 1s"
-        >
+          data-sr="enter left 100px over 1s">
           <div className="sidel2">
             <h3>DESSERTS-APP</h3>
             <p className="prodes">
@@ -164,10 +177,16 @@ const PortfolioPage = () => {
               <p className="jsss">JS</p>
             </div>
             <div className="butview">
-              <a href={entertainmentWebappSite} target="_blank" rel="cccngx">
+              <a
+                href={entertainmentWebappSite}
+                target="_blank"
+                rel="cccngx">
                 <button className="livep">Live Preview</button>
               </a>
-              <a href={entertainmentWebappCode} target="_blank" rel="nnnyys">
+              <a
+                href={entertainmentWebappCode}
+                target="_blank"
+                rel="nnnyys">
                 <button className="vcode">
                   View Code{" "}
                   <span>
@@ -178,10 +197,17 @@ const PortfolioPage = () => {
             </div>
           </div>
           <div className="sider2">
-            <img src={project2} alt="project1" />
+            <img
+              src={project2}
+              alt="project1"
+            />
           </div>
         </div>
-        <img className="illupro2" src={illupro2} alt="" />
+        <img
+          className="illupro2"
+          src={illupro2}
+          alt=""
+        />
       </section>
 
       {/* =========================PROJECT 3=========================== */}
@@ -189,10 +215,12 @@ const PortfolioPage = () => {
       <section className="project3">
         <div
           className="portfolio3 reveal-from-right"
-          data-sr="enter right 100px over 1s"
-        >
+          data-sr="enter right 100px over 1s">
           <div className="sideleft">
-            <img src={project3} alt="project1" />
+            <img
+              src={project3}
+              alt="project1"
+            />
           </div>
           <div className="sideright">
             <h3>THE GLOBE</h3>
@@ -212,10 +240,16 @@ const PortfolioPage = () => {
               <p className="appp">API</p>
             </div>
             <div className="butview">
-              <a href={spaceWebSite} target="_blank" rel="cccngx">
+              <a
+                href={spaceWebSite}
+                target="_blank"
+                rel="cccngx">
                 <button className="livep">Live Preview</button>
               </a>
-              <a href={spaceWebCode} target="_blank" rel="nnnyys">
+              <a
+                href={spaceWebCode}
+                target="_blank"
+                rel="nnnyys">
                 <button className="vcode">
                   View Code{" "}
                   <span>
@@ -226,7 +260,11 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
-        <img className="illupro3" src={illupro3} alt="" />
+        <img
+          className="illupro3"
+          src={illupro3}
+          alt=""
+        />
       </section>
 
       {/* =========================PROJECT 4=========================== */}
@@ -234,8 +272,7 @@ const PortfolioPage = () => {
       <section className="project4">
         <div
           className="portfolio4 reveal-from-left"
-          data-sr="enter left 100px over 1s"
-        >
+          data-sr="enter left 100px over 1s">
           <div className="sidel2">
             <h3 className="text-end">MPAY FINTECH WEB-APP</h3>
             <p className="prodes">
@@ -254,10 +291,16 @@ const PortfolioPage = () => {
               <p className="appp">API</p>
             </div>
             <div className="butview">
-              <a href={mpayFinSite} target="_blank" rel="cccngx">
+              <a
+                href={mpayFinSite}
+                target="_blank"
+                rel="cccngx">
                 <button className="livep">Live Preview</button>
               </a>
-              <a href={mpayFinCode} target="_blank" rel="nnnyys">
+              <a
+                href={mpayFinCode}
+                target="_blank"
+                rel="nnnyys">
                 <button className="vcode">
                   View Code{" "}
                   <span>
@@ -268,10 +311,17 @@ const PortfolioPage = () => {
             </div>
           </div>
           <div className="sider2">
-            <img src={project4} alt="project1" />
+            <img
+              src={project4}
+              alt="project1"
+            />
           </div>
         </div>
-        <img className="illupro4" src={illupro4} alt="" />
+        <img
+          className="illupro4"
+          src={illupro4}
+          alt=""
+        />
       </section>
 
       {/* =========================PROJECT 5============================= */}
@@ -279,10 +329,12 @@ const PortfolioPage = () => {
       <section className="project5">
         <div
           className="portfolio5 reveal-from-right"
-          data-sr="enter right 100px over 1s"
-        >
+          data-sr="enter right 100px over 1s">
           <div className="sideleft">
-            <img src={project5} alt="project1" />
+            <img
+              src={project5}
+              alt="project1"
+            />
           </div>
           <div className="sideright">
             <h3>Project name</h3>
@@ -309,7 +361,11 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
-        <img className="illupro5" src={illupro5} alt="" />
+        <img
+          className="illupro5"
+          src={illupro5}
+          alt=""
+        />
       </section>
 
       {/* =========================PROJECT 6=========================== */}
@@ -317,8 +373,7 @@ const PortfolioPage = () => {
       {/* <section className="project6">
         <div
           className="portfolio6 reveal-from-left"
-          data-sr="enter left 100px over 1s"
-        >
+          data-sr="enter left 100px over 1s">
           <div className="sidel2">
             <h3>Project name</h3>
             <p className="prodes">
@@ -344,10 +399,17 @@ const PortfolioPage = () => {
             </div>
           </div>
           <div className="sider2">
-            <img src={project6} alt="project1" />
+            <img
+              src={project6}
+              alt="project1"
+            />
           </div>
         </div>
-        <img className="illupro6" src={illupro6} alt="" />
+        <img
+          className="illupro6"
+          src={illupro6}
+          alt=""
+        />
       </section> */}
 
       {/* =========================PROJECT 7============================= */}

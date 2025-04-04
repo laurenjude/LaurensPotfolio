@@ -26,7 +26,7 @@ import vue from "../../assets/Assets/Logos/vue.png";
 import sass from "../../assets/Assets/Logos/sass.png";
 import web7 from "../../assets/Assets/Social Icons/bbbbaby.png";
 import web2 from "../../assets/Assets/Social Icons/DESSERTS.png";
-import web5 from "../../assets/Assets/Logos/web5.png";
+import web5 from "../../assets/Assets/Social Icons/WhatsApp Image 2025-03-31 at 13.33.03_5663f6d6.jpg";
 import web3 from "../../assets/Assets/Social Icons/GLOBE.png";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import arrowddown from "../../assets/Assets/Logos/arrow1.png";
@@ -409,17 +409,17 @@ const LandingPage = () => {
               className="aboutnum reveal-from-bottom"
               data-sr="enter bottom 100px over 1s">
               <div className="abnum1">
-                <p className="plusnum">2+</p>
+                <p className="plusnum">1+</p>
                 <p className="texnum">Years of Experience</p>
               </div>
               <div className="abnum2">
                 <p className="plusnum">8+</p>
                 <p className="texnum">Successfully Completed Projects</p>
               </div>
-              <div className="abnum3">
+              {/* <div className="abnum3">
                 <p className="plusnum">1</p>
                 <p className="texnum">Global Customers</p>
-              </div>
+              </div> */}
             </div>
             <button
               className="bout border-0"
@@ -559,7 +559,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>HTML</h5>
-                <p>3 Years Experience</p>
+                <p>2 Years Experience</p>
               </div>
             </div>
             <div className="css">
@@ -569,7 +569,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>CSS</h5>
-                <p>2 Years Experience</p>
+                <p>1+ Years Experience</p>
               </div>
             </div>
             <div className="java">
@@ -579,7 +579,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>JAVASCRIPT</h5>
-                <p>2 Years Experience</p>
+                <p>1+ Years Experience</p>
               </div>
             </div>
             <div className="react">
@@ -589,7 +589,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>REACT.JS</h5>
-                <p>1 years Experience</p>
+                <p>1+ years Experience</p>
               </div>
             </div>
           </div>
@@ -604,7 +604,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>PYTHON</h5>
-                <p>6 Months Experience</p>
+                <p>3+ Months Experience</p>
               </div>
             </div>
             <div className="node">
@@ -614,7 +614,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>NODE.JS</h5>
-                <p>1 year Experience</p>
+                <p>6+ months Experience</p>
               </div>
             </div>
             <div className="vue">
@@ -624,17 +624,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>VUE.JS</h5>
-                <p>6 Months Experience</p>
-              </div>
-            </div>
-            <div className="sass">
-              <img
-                src={sass}
-                alt="sass"
-              />
-              <div>
-                <h5>SASS</h5>
-                <p>3 Months Experience</p>
+                <p>3+ Months Experience</p>
               </div>
             </div>
           </div>
@@ -652,6 +642,19 @@ const LandingPage = () => {
           My Projects
         </p>
         <div className="proo">
+          <div
+            className="web4 reveal-from-left"
+            data-sr="enter left 50px over 1s">
+            <div className="prodep4 mb-4">
+              <p>Banking App</p>
+              <h5>01/04/2025</h5>
+            </div>
+            <img
+              src={web5}
+              alt="web5"
+            />
+          </div>
+
           <div
             className="web1 reveal-from-right"
             data-sr="enter right 50px over 1s">
@@ -687,18 +690,6 @@ const LandingPage = () => {
               <p>GLOBE-APP</p>
               <h5>03/29/2024</h5>
             </div>
-          </div>
-          <div
-            className="web4 reveal-from-left"
-            data-sr="enter left 50px over 1s">
-            <div className="prodep4 mb-4">
-              <p>Project Name</p>
-              <h5>Date</h5>
-            </div>
-            <img
-              src={web5}
-              alt="web5"
-            />
           </div>
         </div>
         <Link
