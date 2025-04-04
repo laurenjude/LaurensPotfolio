@@ -559,7 +559,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>HTML</h5>
-                <p>2 Years Experience</p>
+                <p>18 months Experience</p>
               </div>
             </div>
             <div className="css">
