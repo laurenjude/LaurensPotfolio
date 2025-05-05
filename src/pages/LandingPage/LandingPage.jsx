@@ -52,6 +52,7 @@ import scorem from "../../assets/Assets/Logos/checkmark.png";
 import { Link } from "react-scroll";
 import ScrollReveal from "scrollreveal";
 import emailjs from "emailjs-com";
+import Pospadi from "../../assets/Assets/Social Icons/image.png";
 
 // =================================================
 
@@ -642,6 +643,19 @@ const LandingPage = () => {
           My Projects
         </p>
         <div className="proo">
+          <div
+            className="web1 reveal-from-right"
+            data-sr="enter right 50px over 1s">
+            <img
+              src={Pospadi}
+              alt="pos-padi"
+            />
+            <div className="prodep1 mt-4">
+              <p>Pos-Padi</p>
+              <h5>15/03/2025</h5>
+            </div>
+          </div>
+
           <div
             className="web4 reveal-from-left"
             data-sr="enter left 50px over 1s">

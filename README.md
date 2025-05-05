@@ -1,8 +1,20 @@
-# React + Vite
+# 🌐 Lauren Jude's Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code of my personal developer portfolio — a modern, responsive, and elegant website built with React.js and designed to showcase my skills, experience, and projects as a Full-Stack Developer.
 
-Currently, two official plugins are available:
+**Live Website:** [https://laurens-potfolio.vercel.app](https://laurens-potfolio.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🚀 Features
+
+- 💼 **About Me** section with a clean layout
+- 🛠️ **Skills** section with icons for each technology
+- 📂 **Projects** section linking to GitHub repositories and live demos
+- 📱 **Responsive Design** for all screen sizes
+- 📬 **Contact Form** using EmailJS
+- ⚡ Built with **React.js**, **CSS**, and **Vite**
+
+---
+
+## 📁 Project Structure

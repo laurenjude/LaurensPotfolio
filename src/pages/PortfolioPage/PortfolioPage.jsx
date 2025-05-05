@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./PortfolioPage.css";
 import { IoLogoGithub } from "react-icons/io";
-import project1 from "../../assets/Assets/Social Icons/bbbbaby.png";
+import project1 from "../../assets/Assets/Social Icons/image.png";
 import project2 from "../../assets/Assets/Social Icons/DESSERTS.png";
 import project3 from "../../assets/Assets/Social Icons/GLOBE.png";
 import project4 from "../../assets/Assets/Logos/mpay.png";
@@ -76,8 +76,9 @@ const PortfolioPage = () => {
 
   // =========================WEBLINKS==========================
 
-  const sunnySideCode = "https://github.com/laurenjude/BABY-PLACE";
-  const sunnySideSite = "https://baby-place.vercel.app/";
+  const sunnySideCode =
+    "https://github.com/laurenjude/pos-padi-frontend/tree/dev";
+  const sunnySideSite = "https://pos-padi.netlify.app/home";
 
   const entertainmentWebappCode = "https://github.com/laurenjude/Desserts";
   const entertainmentWebappSite = "https://desserts-green.vercel.app/";
@@ -109,16 +110,13 @@ const PortfolioPage = () => {
             />
           </div>
           <div className="sideright">
-            <h3 className="text-start">BABY-PLACE "Home-page"</h3>
+            <h3 className="text-start">POS padi</h3>
             <p className="prodes">
-              The Baby Place website is a user-friendly platform focused on
-              helping parents or guardians find baby-related services and
-              locations. It likely includes features such as searching for baby
-              care centers, product recommendations, or community spaces
-              tailored to parents. The design appears clean and responsive,
-              ensuring accessibility across devices. This project showcases a
-              blend of frontend and backend skills, demonstrating effective
-              navigation and data handling.
+              At POS-PADi, we're transforming how businesses handle payments.
+              From small shops to large enterprises, we provide the tools you
+              need to succeed in today's digital economy. Fast, secure payment
+              processing Intuitive business management tools Seamless
+              omnichannel experiences Enterprise-grade reliability
             </p>
             <div className="techno">
               <p className="httt">HTML</p>
