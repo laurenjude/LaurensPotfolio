@@ -78,7 +78,7 @@ const PortfolioPage = () => {
 
   const sunnySideCode =
     "https://github.com/laurenjude/pos-padi-frontend/tree/dev";
-  const sunnySideSite = "https://pos-padi.netlify.app/home";
+  const sunnySideSite = "https://pospadi.com.ng/";
 
   const entertainmentWebappCode = "https://github.com/laurenjude/Desserts";
   const entertainmentWebappSite = "https://desserts-green.vercel.app/";
