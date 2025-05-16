@@ -414,7 +414,7 @@ const LandingPage = () => {
                 <p className="texnum">Years of Experience</p>
               </div>
               <div className="abnum2">
-                <p className="plusnum">8+</p>
+                <p className="plusnum">10+</p>
                 <p className="texnum">Successfully Completed Projects</p>
               </div>
               {/* <div className="abnum3">
@@ -560,7 +560,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>HTML</h5>
-                <p>18 months Experience</p>
+                <p>18+ months Experience</p>
               </div>
             </div>
             <div className="css">
