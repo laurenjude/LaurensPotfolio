@@ -42,30 +42,47 @@ const Footer = () => {
             smooth={true}
             duration={500}
             className="fotlo d-flex justify-content-between align-items-center"
-            onClick={handleClickLogo}
-          >
-            <img src={mylolo} alt="perlogo" />
+            onClick={handleClickLogo}>
+            <img
+              src={mylolo}
+              alt="perlogo"
+            />
           </Link>
           <div className="footnav">
-            <Link to="top" smooth={true} duration={500}>
+            <Link
+              to="top"
+              smooth={true}
+              duration={500}>
               <p onClick={handleClickHi}>Hi</p>
             </Link>
-            <Link to="section2" smooth={true} duration={500}>
+            <Link
+              to="section2"
+              smooth={true}
+              duration={500}>
               <p onClick={handleClickAbout}>About</p>
             </Link>
-            <Link to="section3" smooth={true} duration={500}>
+            <Link
+              to="section3"
+              smooth={true}
+              duration={500}>
               <p onClick={handleClickSkills}>Skills</p>
             </Link>
-            <Link to="section4" smooth={true} duration={500}>
+            <Link
+              to="section4"
+              smooth={true}
+              duration={500}>
               <p onClick={handleClickProjects}>Projects</p>
             </Link>
-            <Link to="section5" smooth={true} duration={500}>
+            <Link
+              to="section5"
+              smooth={true}
+              duration={500}>
               <p onClick={handleClickContact}>Contact</p>
             </Link>
           </div>
         </div>
         <div className="footcopy">
-          <p>&copy; 2025 Lauren, Jude. All rights reserved.</p>
+          <p>&copy; 2026 Lauren, Jude. All rights reserved.</p>
           <p>Terms of Use</p>
           <p>Privacy Policy</p>
         </div>
