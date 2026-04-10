@@ -268,7 +268,7 @@ const LandingPage = () => {
 
   const downloadResume = () => {
     const resumeLink =
-      "https://drive.google.com/file/d/1uOEc_L0EfuaX0cZYoM9_PCySWbe9dZUg/view?usp=drivesdk";
+      "https://docs.google.com/document/d/1jr2KIIJPxMUlULfhpShLOP0hUPSRHVst/edit?usp=sharing&ouid=100903546748035111187&rtpof=true&sd=true";
 
     const link = document.createElement("a");
     link.href = resumeLink;
