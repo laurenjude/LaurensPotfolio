@@ -20,9 +20,9 @@ import html from "../../assets/Assets/Logos/html.png";
 import css from "../../assets/Assets/Logos/css.png";
 import java from "../../assets/Assets/Logos/javascript.png";
 import react from "../../assets/Assets/Logos/react.png";
-import python from "../../assets/Assets/Logos/python.png";
-import node from "../../assets/Assets/Logos/node.png";
-import vue from "../../assets/Assets/Logos/vue.png";
+import n8n from "../../assets/Assets/Logos/n8n.png";
+import airtable from "../../assets/Assets/Logos/airtable.png";
+import fillout from "../../assets/Assets/Logos/fillout.png";
 import sass from "../../assets/Assets/Logos/sass.png";
 import web7 from "../../assets/Assets/Social Icons/bbbbaby.png";
 import web2 from "../../assets/Assets/Social Icons/DESSERTS.png";
@@ -51,7 +51,6 @@ import gitty from "../../assets/Assets/Logos/github.png";
 import scorem from "../../assets/Assets/Logos/checkmark.png";
 import { Link } from "react-scroll";
 import ScrollReveal from "scrollreveal";
-import emailjs from "emailjs-com";
 import Pospadi from "../../assets/Assets/Social Icons/image.png";
 
 // =================================================
@@ -231,30 +230,38 @@ const LandingPage = () => {
   };
 
   // ======================EMAILJS FUNCTION=====================
-  const handleSeendClick = (e) => {
+  const handleSeendClick = async (e) => {
     e.preventDefault();
+
     const templateParams = {
       name: formDataTwo.name,
       email: formDataTwo.email,
       message: formDataTwo.message,
     };
 
-    emailjs
-      .send(
-        "service_p3nnq86", // Your EmailJS service ID
-        "template_9p2nh1m", // Your EmailJS template ID
-        templateParams,
-        "jl2lw_MByDsAqRBv1" // Your EmailJS user ID
-      )
-      .then((response) => {
-        console.log("Email sent successfully!", response);
-        toast.success("Message sent successfully!"); // Use toast for success message
-        setIsMessageSent(true); // Open the success modal
-      })
-      .catch((error) => {
-        console.error("Error sending email:", error);
-        toast.error("Failed to send message. Please try again."); // Use toast for error message
-      });
+    try {
+      const response = await fetch(
+        "https://lauren001.app.n8n.cloud/webhook/91e72b5f-616c-46e8-9d12-491eef499c4e",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(templateParams),
+        },
+      );
+
+      if (response.ok) {
+        toast.success("Message sent successfully!");
+        setIsMessageSent(true);
+        setFormDataTwo({ name: "", email: "", message: "" });
+      } else {
+        toast.error("Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error sending message:", error);
+      toast.error("Failed to send message. Please try again.");
+    }
   };
 
   // =================DOWNLOAD RESUME==============================
@@ -293,7 +300,7 @@ const LandingPage = () => {
         <div
           className="landing-content text-start reveal-from-top"
           data-sr="enter top 100px over 1s">
-          <h3>FULL-STACK WEB DEVELOPER</h3>
+          <h3>AI AUTOMATION SPECIALIST</h3>
           <div className="loothi">
             <Lottie
               options={defaultOptions}
@@ -303,11 +310,9 @@ const LandingPage = () => {
           </div>
           <p className="name-big">I'm Lauren, Jude</p>
           <p className="based">
-            A passionate Full-Stack Developer who enjoys crafting scalable,
-            user-friendly web apps. I’m always eager to learn, grow, and
-            collaborate on exciting challenges.I Enjoy building innovative
-            problem solving solutions that will make a difference in People's
-            Lives.
+            I build automated systems that eliminate manual work for businesses
+            using n8n, Airtable, and Fillout to connect tools, track data, and
+            send communications automatically.
           </p>
         </div>
         <div className="illustration ">
@@ -395,13 +400,12 @@ const LandingPage = () => {
           />
           <div className="parab">
             <p className="highly">
-              Driven Full Stack Web Developer & tutor with diverse experience as
-              a Digital Strategist converting intricate designs into seamless
-              engaging, user-centric web solutions that consistently delight
-              users{" "}
+              AI Automation Specialist & Frontend Developer with a passion for
+              building systems that eliminate manual work for businesses — from
+              clinic management to membership platforms.{" "}
               <span>
-                Crafts pixel-perfect, accessible websites & apps while honing
-                cutting-edge web skills{" "}
+                I build with n8n, Airtable, and Fillout to automate workflows,
+                track data, and help businesses run themselves.{" "}
               </span>
               I just Love Building.
             </p>
@@ -560,7 +564,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>HTML</h5>
-                <p>18+ months Experience</p>
+                <p>2+ Years Experience</p>
               </div>
             </div>
             <div className="css">
@@ -570,7 +574,7 @@ const LandingPage = () => {
               />
               <div>
                 <h5>CSS</h5>
-                <p>1+ Years Experience</p>
+                <p>2+ Years Experience</p>
               </div>
             </div>
             <div className="java">
@@ -600,31 +604,31 @@ const LandingPage = () => {
             data-sr="enter bottom 100px over 1s">
             <div className="python">
               <img
-                src={python}
-                alt="python"
+                src={n8n}
+                alt="n8n"
               />
               <div>
-                <h5>PYTHON</h5>
+                <h5>n8n</h5>
                 <p>3+ Months Experience</p>
               </div>
             </div>
             <div className="node">
               <img
-                src={node}
-                alt="node"
+                src={airtable}
+                alt="airtable"
               />
               <div>
-                <h5>NODE.JS</h5>
-                <p>6+ months Experience</p>
+                <h5>AIRTABLE</h5>
+                <p>3+ months Experience</p>
               </div>
             </div>
             <div className="vue">
               <img
-                src={vue}
-                alt="vue"
+                src={fillout}
+                alt="fillout"
               />
               <div>
-                <h5>VUE.JS</h5>
+                <h5>Fillout</h5>
                 <p>3+ Months Experience</p>
               </div>
             </div>
