@@ -241,7 +241,7 @@ const LandingPage = () => {
 
     try {
       const response = await fetch(
-        "https://lauren001.app.n8n.cloud/webhook/91e72b5f-616c-46e8-9d12-491eef499c4e",
+        "https://lauren002.app.n8n.cloud/webhook/91e72b5f-616c-46e8-9d12-491eef499c4e",
         {
           method: "POST",
           headers: {
