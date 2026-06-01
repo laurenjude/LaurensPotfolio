@@ -6,6 +6,10 @@ import project2 from "../../assets/Assets/Social Icons/DESSERTS.png";
 import project3 from "../../assets/Assets/Social Icons/GLOBE.png";
 import project4 from "../../assets/Assets/Logos/mpay.png";
 import project5 from "../../assets/Assets/Logos/des5.jpg";
+import projLaurelle from "../../assets/Assets/Logos/proj-laurelle.png";
+import projMamatee from "../../assets/Assets/Logos/proj-mamatee.png";
+import projSolar from "../../assets/Assets/Logos/proj-solar.png";
+import projInvoice from "../../assets/Assets/Logos/proj-invoice.png";
 // import project6 from "../../assets/Assets/Logos/web5.png";
 // import project7 from "../../assets/Assets/Logos/des3.jpg";
 // import project8 from "../../assets/Assets/Logos/web3.png";
@@ -330,7 +334,7 @@ const PortfolioPage = () => {
           data-sr="enter right 100px over 1s">
           <div className="sideleft">
             <img
-              src={project1}
+              src={projLaurelle}
               alt="Laurelle Realty"
             />
           </div>
@@ -419,7 +423,7 @@ const PortfolioPage = () => {
           </div>
           <div className="sider2">
             <img
-              src={project2}
+              src={projMamatee}
               alt="Mama Tees Kitchen"
             />
           </div>
@@ -498,7 +502,7 @@ const PortfolioPage = () => {
           data-sr="enter right 100px over 1s">
           <div className="sideleft">
             <img
-              src={project5}
+              src={projSolar}
               alt="Solar Lead Automation"
             />
           </div>
@@ -549,7 +553,7 @@ const PortfolioPage = () => {
           </div>
           <div className="sider2">
             <img
-              src={project1}
+              src={projInvoice}
               alt="AI Invoice Generator"
             />
           </div>

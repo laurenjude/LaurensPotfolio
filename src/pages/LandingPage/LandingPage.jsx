@@ -28,6 +28,10 @@ import web7 from "../../assets/Assets/Social Icons/bbbbaby.png";
 import web2 from "../../assets/Assets/Social Icons/DESSERTS.png";
 import web5 from "../../assets/Assets/Social Icons/WhatsApp Image 2025-03-31 at 13.33.03_5663f6d6.jpg";
 import web3 from "../../assets/Assets/Social Icons/GLOBE.png";
+import projLaurelle from "../../assets/Assets/Logos/proj-laurelle.png";
+import projMamatee from "../../assets/Assets/Logos/proj-mamatee.png";
+import projSolar from "../../assets/Assets/Logos/proj-solar.png";
+import projInvoice from "../../assets/Assets/Logos/proj-invoice.png";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import arrowddown from "../../assets/Assets/Logos/arrow1.png";
 import cross1 from "../../assets/Assets/Logos/cross1.png";
@@ -663,7 +667,7 @@ const LandingPage = () => {
             className="feat-card reveal-from-left"
             data-sr="enter left 50px over 1s">
             <img
-              src={web3}
+              src={projLaurelle}
               alt="Laurelle Realty"
             />
             <div className="feat-card-body">
@@ -695,7 +699,7 @@ const LandingPage = () => {
             className="feat-card reveal-from-right"
             data-sr="enter right 50px over 1s">
             <img
-              src={web7}
+              src={projMamatee}
               alt="Mama Tees Kitchen"
             />
             <div className="feat-card-body">
@@ -727,7 +731,7 @@ const LandingPage = () => {
             className="feat-card reveal-from-left"
             data-sr="enter left 50px over 1s">
             <img
-              src={web2}
+              src={projSolar}
               alt="Solar Lead Automation"
             />
             <div className="feat-card-body">
@@ -751,7 +755,7 @@ const LandingPage = () => {
             className="feat-card reveal-from-right"
             data-sr="enter right 50px over 1s">
             <img
-              src={web5}
+              src={projInvoice}
               alt="AI Invoice Generator"
             />
             <div className="feat-card-body">
