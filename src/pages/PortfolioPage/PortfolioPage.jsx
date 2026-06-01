@@ -6,10 +6,6 @@ import project2 from "../../assets/Assets/Social Icons/DESSERTS.png";
 import project3 from "../../assets/Assets/Social Icons/GLOBE.png";
 import project4 from "../../assets/Assets/Logos/mpay.png";
 import project5 from "../../assets/Assets/Logos/des5.jpg";
-import projLaurelle from "../../assets/Assets/Logos/proj-laurelle.png";
-import projMamatee from "../../assets/Assets/Logos/proj-mamatee.png";
-import projSolar from "../../assets/Assets/Logos/proj-solar.png";
-import projInvoice from "../../assets/Assets/Logos/proj-invoice.png";
 // import project6 from "../../assets/Assets/Logos/web5.png";
 // import project7 from "../../assets/Assets/Logos/des3.jpg";
 // import project8 from "../../assets/Assets/Logos/web3.png";
@@ -29,6 +25,10 @@ import illupro5 from "../../assets/Assets/Logos/ball.png";
 // import illupro9 from "../../assets/Assets/Logos/iluuu1.png";
 // import illupro10 from "../../assets/Assets/Logos/iluuu3.png";
 // import illupro11 from "../../assets/Assets/Logos/Picture5.png";
+import projLaurelle from "../../assets/Assets/Logos/proj-laurelle.png";
+import projMamatee from "../../assets/Assets/Logos/proj-mamatee.png";
+import projSolar from "../../assets/Assets/Logos/proj-solar.png";
+import projInvoice from "../../assets/Assets/Logos/proj-invoice.png";
 import ScrollReveal from "scrollreveal";
 import animationData from "../../assets/Assets/Logos/Animation - 1706860637472 (1).json";
 
@@ -101,236 +101,11 @@ const PortfolioPage = () => {
         My Projects{" "}
       </p>
 
-      {/* =========================PROJECT 1============================= */}
+      {/* =========================PROJECT 1 — Laurelle Realty============================= */}
 
       <section className="project1">
         <div
           className="portfolio1 reveal-from-right"
-          data-sr="enter right 100px over 1s">
-          <div className="sideleft">
-            <img
-              src={project1}
-              alt="project1"
-            />
-          </div>
-          <div className="sideright">
-            <h3 className="text-start">POS padi</h3>
-            <p className="prodes">
-              At POS-PADi, we're transforming how businesses handle payments.
-              From small shops to large enterprises, we provide the tools you
-              need to succeed in today's digital economy. Fast, secure payment
-              processing Intuitive business management tools Seamless
-              omnichannel experiences Enterprise-grade reliability
-            </p>
-            <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
-            </div>
-            <div className="butview">
-              <a
-                href={sunnySideSite}
-                target="_blank"
-                rel="thdhgcvn">
-                <button className="livep">Live Preview</button>
-              </a>
-
-              <a
-                href={sunnySideCode}
-                target="_blank"
-                rel="ytdczxhrh">
-                <button className="vcode">
-                  View Code{" "}
-                  <span>
-                    <IoLogoGithub />
-                  </span>
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <img
-          className="illupro1"
-          src={illupro1}
-          alt=""
-        />
-      </section>
-
-      {/* =========================PROJECT 2=========================== */}
-
-      <section className="project2">
-        <div
-          className="portfolio2 reveal-from-left"
-          data-sr="enter left 100px over 1s">
-          <div className="sidel2">
-            <h3>DESSERTS-APP</h3>
-            <p className="prodes">
-              The Desserts website is a visually appealing and responsive
-              platform showcasing a variety of desserts. It likely emphasizes an
-              elegant design with smooth navigation, featuring detailed displays
-              of desserts with appealing visuals and descriptions. The project
-              highlights technical skills in frontend development, focusing on
-              user experience and aesthetic presentation.
-            </p>
-            <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-            </div>
-            <div className="butview">
-              <a
-                href={entertainmentWebappSite}
-                target="_blank"
-                rel="cccngx">
-                <button className="livep">Live Preview</button>
-              </a>
-              <a
-                href={entertainmentWebappCode}
-                target="_blank"
-                rel="nnnyys">
-                <button className="vcode">
-                  View Code{" "}
-                  <span>
-                    <IoLogoGithub />
-                  </span>
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="sider2">
-            <img
-              src={project2}
-              alt="project1"
-            />
-          </div>
-        </div>
-        <img
-          className="illupro2"
-          src={illupro2}
-          alt=""
-        />
-      </section>
-
-      {/* =========================PROJECT 3=========================== */}
-
-      <section className="project3">
-        <div
-          className="portfolio3 reveal-from-right"
-          data-sr="enter right 100px over 1s">
-          <div className="sideleft">
-            <img
-              src={project3}
-              alt="project1"
-            />
-          </div>
-          <div className="sideright">
-            <h3>THE GLOBE</h3>
-            <p className="prodes">
-              The Globe website is a visually engaging platform that likely
-              focuses on presenting information or resources related to global
-              topics, such as travel, geography, or cultural exploration. It
-              features a modern design and responsive layout, ensuring
-              accessibility on various devices. This project showcases strong
-              frontend development skills, emphasizing clean visuals and smooth
-              user interactions.
-            </p>
-            <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
-            </div>
-            <div className="butview">
-              <a
-                href={spaceWebSite}
-                target="_blank"
-                rel="cccngx">
-                <button className="livep">Live Preview</button>
-              </a>
-              <a
-                href={spaceWebCode}
-                target="_blank"
-                rel="nnnyys">
-                <button className="vcode">
-                  View Code{" "}
-                  <span>
-                    <IoLogoGithub />
-                  </span>
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <img
-          className="illupro3"
-          src={illupro3}
-          alt=""
-        />
-      </section>
-
-      {/* =========================PROJECT 4=========================== */}
-
-      <section className="project4">
-        <div
-          className="portfolio4 reveal-from-left"
-          data-sr="enter left 100px over 1s">
-          <div className="sidel2">
-            <h3 className="text-end">MPAY FINTECH WEB-APP</h3>
-            <p className="prodes">
-              Welcome to our cutting-edge fintech web app, where seamless
-              financial management meets user-friendly accessibility. With
-              secure sign-in and sign-out features, users can confidently
-              navigate our platform to take control of their finances. Our
-              internal page offers a wealth of resources, empowering users to
-              dive deeper into the features and benefits our fintech solution
-              offers
-            </p>
-            <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
-            </div>
-            <div className="butview">
-              <a
-                href={mpayFinSite}
-                target="_blank"
-                rel="cccngx">
-                <button className="livep">Live Preview</button>
-              </a>
-              <a
-                href={mpayFinCode}
-                target="_blank"
-                rel="nnnyys">
-                <button className="vcode">
-                  View Code{" "}
-                  <span>
-                    <IoLogoGithub />
-                  </span>
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="sider2">
-            <img
-              src={project4}
-              alt="project1"
-            />
-          </div>
-        </div>
-        <img
-          className="illupro4"
-          src={illupro4}
-          alt=""
-        />
-      </section>
-
-      {/* =========================PROJECT 5 — Laurelle Realty============================= */}
-
-      <section className="project5">
-        <div
-          className="portfolio5 reveal-from-right"
           data-sr="enter right 100px over 1s">
           <div className="sideleft">
             <img
@@ -375,17 +150,17 @@ const PortfolioPage = () => {
           </div>
         </div>
         <img
-          className="illupro5"
+          className="illupro1"
           src={illupro5}
           alt=""
         />
       </section>
 
-      {/* =========================PROJECT 6 — Mama Tee's Kitchen=========================== */}
+      {/* =========================PROJECT 2 — Mama Tee's Kitchen=========================== */}
 
-      <section className="project6">
+      <section className="project2">
         <div
-          className="portfolio6 reveal-from-left"
+          className="portfolio2 reveal-from-left"
           data-sr="enter left 100px over 1s">
           <div className="sidel2">
             <h3>Mama Tee's Kitchen — AI Voice Concierge</h3>
@@ -428,13 +203,18 @@ const PortfolioPage = () => {
             />
           </div>
         </div>
+        <img
+          className="illupro2"
+          src={illupro2}
+          alt=""
+        />
       </section>
 
-      {/* =========================PROJECT 7 — Orthodontic Clinic============================= */}
+      {/* =========================PROJECT 3 — Orthodontic Clinic============================= */}
 
-      <section className="project7">
+      <section className="project3">
         <div
-          className="portfolio7 reveal-from-right"
+          className="portfolio3 reveal-from-right"
           data-sr="enter right 100px over 1s">
           <div className="sideleft">
             <img
@@ -459,13 +239,18 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
+        <img
+          className="illupro3"
+          src={illupro3}
+          alt=""
+        />
       </section>
 
-      {/* =========================PROJECT 8 — Financial Document Automation=========================== */}
+      {/* =========================PROJECT 4 — Financial Document Automation=========================== */}
 
-      <section className="project8">
+      <section className="project4">
         <div
-          className="portfolio8 reveal-from-left"
+          className="portfolio4 reveal-from-left"
           data-sr="enter left 100px over 1s">
           <div className="sidel2">
             <h3>Financial Document Automation</h3>
@@ -492,13 +277,18 @@ const PortfolioPage = () => {
             />
           </div>
         </div>
+        <img
+          className="illupro4"
+          src={illupro4}
+          alt=""
+        />
       </section>
 
-      {/* =========================PROJECT 9 — Solar Lead Automation============================= */}
+      {/* =========================PROJECT 5 — Solar Lead Automation============================= */}
 
-      <section className="project9">
+      <section className="project5">
         <div
-          className="portfolio9 reveal-from-right"
+          className="portfolio5 reveal-from-right"
           data-sr="enter right 100px over 1s">
           <div className="sideleft">
             <img
@@ -525,13 +315,18 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
+        <img
+          className="illupro5"
+          src={illupro5}
+          alt=""
+        />
       </section>
 
-      {/* =========================PROJECT 10 — AI Invoice Generator=========================== */}
+      {/* =========================PROJECT 6 — AI Invoice Generator=========================== */}
 
-      <section className="project10">
+      <section className="project6">
         <div
-          className="portfolio10 reveal-from-left"
+          className="portfolio6 reveal-from-left"
           data-sr="enter left 100px over 1s">
           <div className="sidel2">
             <h3>AI Invoice Generator</h3>
@@ -560,11 +355,11 @@ const PortfolioPage = () => {
         </div>
       </section>
 
-      {/* =========================PROJECT 11 — ResumeIQ============================= */}
+      {/* =========================PROJECT 7 — ResumeIQ============================= */}
 
-      <section className="project11">
+      <section className="project7">
         <div
-          className="portfolio11 reveal-from-right"
+          className="portfolio7 reveal-from-right"
           data-sr="enter right 100px over 1s">
           <div className="sideleft">
             <img
@@ -604,11 +399,210 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
-        <img
-          className="illupro11"
-          src={illupro5}
-          alt=""
-        />
+      </section>
+
+      {/* =========================PROJECT 8 — POS Padi============================= */}
+
+      <section className="project8">
+        <div
+          className="portfolio8 reveal-from-left"
+          data-sr="enter left 100px over 1s">
+          <div className="sidel2">
+            <h3>POS padi</h3>
+            <p className="prodes">
+              At POS-PADi, we're transforming how businesses handle payments.
+              From small shops to large enterprises, we provide the tools you
+              need to succeed in today's digital economy. Fast, secure payment
+              processing Intuitive business management tools Seamless
+              omnichannel experiences Enterprise-grade reliability
+            </p>
+            <div className="techno">
+              <p className="httt">HTML</p>
+              <p className="csss">CSS</p>
+              <p className="jsss">JS</p>
+              <p className="appp">API</p>
+            </div>
+            <div className="butview">
+              <a
+                href={sunnySideSite}
+                target="_blank"
+                rel="thdhgcvn">
+                <button className="livep">Live Preview</button>
+              </a>
+              <a
+                href={sunnySideCode}
+                target="_blank"
+                rel="ytdczxhrh">
+                <button className="vcode">
+                  View Code{" "}
+                  <span>
+                    <IoLogoGithub />
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="sider2">
+            <img
+              src={project1}
+              alt="project1"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* =========================PROJECT 9 — DESSERTS-APP=========================== */}
+
+      <section className="project9">
+        <div
+          className="portfolio9 reveal-from-right"
+          data-sr="enter right 100px over 1s">
+          <div className="sideleft">
+            <img
+              src={project2}
+              alt="project2"
+            />
+          </div>
+          <div className="sideright">
+            <h3>DESSERTS-APP</h3>
+            <p className="prodes">
+              The Desserts website is a visually appealing and responsive
+              platform showcasing a variety of desserts. It likely emphasizes an
+              elegant design with smooth navigation, featuring detailed displays
+              of desserts with appealing visuals and descriptions. The project
+              highlights technical skills in frontend development, focusing on
+              user experience and aesthetic presentation.
+            </p>
+            <div className="techno">
+              <p className="httt">HTML</p>
+              <p className="csss">CSS</p>
+              <p className="jsss">JS</p>
+            </div>
+            <div className="butview">
+              <a
+                href={entertainmentWebappSite}
+                target="_blank"
+                rel="cccngx">
+                <button className="livep">Live Preview</button>
+              </a>
+              <a
+                href={entertainmentWebappCode}
+                target="_blank"
+                rel="nnnyys">
+                <button className="vcode">
+                  View Code{" "}
+                  <span>
+                    <IoLogoGithub />
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* =========================PROJECT 10 — THE GLOBE=========================== */}
+
+      <section className="project10">
+        <div
+          className="portfolio10 reveal-from-left"
+          data-sr="enter left 100px over 1s">
+          <div className="sidel2">
+            <h3>THE GLOBE</h3>
+            <p className="prodes">
+              The Globe website is a visually engaging platform that likely
+              focuses on presenting information or resources related to global
+              topics, such as travel, geography, or cultural exploration. It
+              features a modern design and responsive layout, ensuring
+              accessibility on various devices. This project showcases strong
+              frontend development skills, emphasizing clean visuals and smooth
+              user interactions.
+            </p>
+            <div className="techno">
+              <p className="httt">HTML</p>
+              <p className="csss">CSS</p>
+              <p className="jsss">JS</p>
+              <p className="appp">API</p>
+            </div>
+            <div className="butview">
+              <a
+                href={spaceWebSite}
+                target="_blank"
+                rel="cccngx">
+                <button className="livep">Live Preview</button>
+              </a>
+              <a
+                href={spaceWebCode}
+                target="_blank"
+                rel="nnnyys">
+                <button className="vcode">
+                  View Code{" "}
+                  <span>
+                    <IoLogoGithub />
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="sider2">
+            <img
+              src={project3}
+              alt="project3"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* =========================PROJECT 11 — MPAY FINTECH=========================== */}
+
+      <section className="project11">
+        <div
+          className="portfolio11 reveal-from-right"
+          data-sr="enter right 100px over 1s">
+          <div className="sideleft">
+            <img
+              src={project4}
+              alt="project4"
+            />
+          </div>
+          <div className="sideright">
+            <h3 className="text-start">MPAY FINTECH WEB-APP</h3>
+            <p className="prodes">
+              Welcome to our cutting-edge fintech web app, where seamless
+              financial management meets user-friendly accessibility. With
+              secure sign-in and sign-out features, users can confidently
+              navigate our platform to take control of their finances. Our
+              internal page offers a wealth of resources, empowering users to
+              dive deeper into the features and benefits our fintech solution
+              offers
+            </p>
+            <div className="techno">
+              <p className="httt">HTML</p>
+              <p className="csss">CSS</p>
+              <p className="jsss">JS</p>
+              <p className="appp">API</p>
+            </div>
+            <div className="butview">
+              <a
+                href={mpayFinSite}
+                target="_blank"
+                rel="cccngx">
+                <button className="livep">Live Preview</button>
+              </a>
+              <a
+                href={mpayFinCode}
+                target="_blank"
+                rel="nnnyys">
+                <button className="vcode">
+                  View Code{" "}
+                  <span>
+                    <IoLogoGithub />
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
