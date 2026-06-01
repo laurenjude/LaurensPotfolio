@@ -29,6 +29,9 @@ import projLaurelle from "../../assets/Assets/Logos/proj-laurelle.png";
 import projMamatee from "../../assets/Assets/Logos/proj-mamatee.png";
 import projSolar from "../../assets/Assets/Logos/proj-solar.png";
 import projInvoice from "../../assets/Assets/Logos/proj-invoice.png";
+import projOrthodontic from "../../assets/Assets/Logos/proj-orthodontic.png";
+import projFinancial from "../../assets/Assets/Logos/proj-financial.png";
+import projResumeiq from "../../assets/Assets/Logos/proj-resumeiq.png";
 import ScrollReveal from "scrollreveal";
 import animationData from "../../assets/Assets/Logos/Animation - 1706860637472 (1).json";
 
@@ -218,7 +221,7 @@ const PortfolioPage = () => {
           data-sr="enter right 100px over 1s">
           <div className="sideleft">
             <img
-              src={project3}
+              src={projOrthodontic}
               alt="Orthodontic Clinic"
             />
           </div>
@@ -272,7 +275,7 @@ const PortfolioPage = () => {
           </div>
           <div className="sider2">
             <img
-              src={project4}
+              src={projFinancial}
               alt="Financial Document Automation"
             />
           </div>
@@ -363,7 +366,7 @@ const PortfolioPage = () => {
           data-sr="enter right 100px over 1s">
           <div className="sideleft">
             <img
-              src={project2}
+              src={projResumeiq}
               alt="ResumeIQ"
             />
           </div>
