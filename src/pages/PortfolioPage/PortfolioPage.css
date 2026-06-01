@@ -2427,6 +2427,35 @@
   }
 }
 
+/* =================================LAYOUT FIXES================================== */
+
+/* Cards were hard-coded to 850px — shrink to fit any container width */
+.portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5,
+.portfolio6, .portfolio7, .portfolio8, .portfolio9, .portfolio10,
+.portfolio11, .portfolio12, .portfolio13 {
+  max-width: 850px;
+  width: 100%;
+}
+
+/* Tech tags: allow wrapping so many tags don't overflow the card */
+.techno {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 10px 16px;
+  font-weight: 700;
+}
+
+/* Project section alignment at medium viewports */
+@media only screen and (max-width: 991px) {
+  .project1, .project2, .project3, .project4,
+  .project5, .project6, .project7, .project8,
+  .project9, .project10, .project11 {
+    justify-content: center;
+  }
+}
+
 /* =================================TECH TAG COLOURS================================== */
 
 .techno .n8nn { color: #a78bfa; margin-bottom: 0; }
