@@ -322,7 +322,7 @@ const PortfolioPage = () => {
         />
       </section>
 
-      {/* =========================PROJECT 5============================= */}
+      {/* =========================PROJECT 5 — Laurelle Realty============================= */}
 
       <section className="project5">
         <div
@@ -330,32 +330,43 @@ const PortfolioPage = () => {
           data-sr="enter right 100px over 1s">
           <div className="sideleft">
             <img
-              src={project5}
-              alt="project1"
+              src={project1}
+              alt="Laurelle Realty"
             />
           </div>
           <div className="sideright">
-            <h3>Project name</h3>
+            <h3 className="text-start">Laurelle Realty — AI Real Estate Platform</h3>
             <p className="prodes">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-              laborum commodi veniam nemo, tempore minima enim temporibus non
-              adipisci labore qui delectus magnam omnis nulla optio ab soluta
-              aut. Quisquam.
+              A full-stack AI-powered real estate platform for the Lagos property
+              market. Features a RAG-powered chat agent that answers property FAQs
+              and searches live listings via natural language. 4 n8n automation
+              workflows for lead notifications, inquiry alerts, viewing
+              confirmations, and daily reports.
             </p>
             <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
+              <p className="httt">React</p>
+              <p className="csss">Vite</p>
+              <p className="jsss">Supabase</p>
+              <p className="appp">n8n</p>
+              <p className="n8nn">Pinecone</p>
+              <p className="vapiit">OpenRouter</p>
+              <p className="supab">Vercel</p>
             </div>
             <div className="butview">
-              <button className="livep">Live Preview</button>
-              <button className="vcode">
-                View Code{" "}
-                <span>
-                  <IoLogoGithub />
-                </span>
-              </button>
+              <a
+                href="https://laurelle-realty.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button className="livep border-0">Live Site</button>
+              </a>
+              <a
+                href="https://github.com/laurenjude"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button className="vcode border-0">
+                  GitHub{" "}<span><IoLogoGithub /></span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -366,324 +377,235 @@ const PortfolioPage = () => {
         />
       </section>
 
-      {/* =========================PROJECT 6=========================== */}
+      {/* =========================PROJECT 6 — Mama Tee's Kitchen=========================== */}
 
-      {/* <section className="project6">
+      <section className="project6">
         <div
           className="portfolio6 reveal-from-left"
           data-sr="enter left 100px over 1s">
           <div className="sidel2">
-            <h3>Project name</h3>
+            <h3>Mama Tee's Kitchen — AI Voice Concierge</h3>
             <p className="prodes">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-              laborum commodi veniam nemo, tempore minima enim temporibus non
-              adipisci labore qui delectus magnam omnis nulla optio ab soluta
-              aut. Quisquam.
+              A 24/7 AI phone concierge for a Nigerian restaurant that handles
+              live orders, reservations, and customer escalations via real phone
+              calls. Logs every interaction to Airtable, sends instant Telegram
+              notifications to staff, and delivers branded HTML confirmation
+              emails to customers automatically.
             </p>
             <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
+              <p className="vapiit">Vapi</p>
+              <p className="httt">GPT-4.1</p>
+              <p className="csss">ElevenLabs</p>
+              <p className="jsss">Deepgram</p>
+              <p className="appp">n8n</p>
+              <p className="n8nn">Airtable</p>
+              <p className="tele">Telegram</p>
+              <p className="gmaii">Gmail</p>
             </div>
             <div className="butview">
-              <button className="livep">Live Preview</button>
-              <button className="vcode">
-                View Code{" "}
-                <span>
-                  <IoLogoGithub />
-                </span>
-              </button>
+              <a
+                href="https://loom.com/share/b0c70f028aae41cfa79809ff54e68127"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button className="livep border-0">Call Live Demo</button>
+              </a>
+              <a
+                href="https://loom.com/share/b0c70f028aae41cfa79809ff54e68127"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button className="vcode border-0">Watch on Loom</button>
+              </a>
             </div>
           </div>
           <div className="sider2">
             <img
-              src={project6}
-              alt="project1"
+              src={project2}
+              alt="Mama Tees Kitchen"
             />
           </div>
         </div>
-        <img
-          className="illupro6"
-          src={illupro6}
-          alt=""
-        />
-      </section> */}
+      </section>
 
-      {/* =========================PROJECT 7============================= */}
+      {/* =========================PROJECT 7 — Orthodontic Clinic============================= */}
 
-      {/* <section className="project7">
+      <section className="project7">
         <div
           className="portfolio7 reveal-from-right"
-          data-sr="enter right 100px over 1s"
-        >
+          data-sr="enter right 100px over 1s">
           <div className="sideleft">
-            <img src={project7} alt="project1" />
+            <img
+              src={project3}
+              alt="Orthodontic Clinic"
+            />
           </div>
           <div className="sideright">
-            <h3>Project name</h3>
+            <h3 className="text-start">Orthodontic Clinic Management System</h3>
             <p className="prodes">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-              laborum commodi veniam nemo, tempore minima enim temporibus non
-              adipisci labore qui delectus magnam omnis nulla optio ab soluta
-              aut. Quisquam.
+              A complete 5-workflow automation system for an orthodontic clinic
+              covering the full patient lifecycle — booking, appointment
+              reminders, payment plan tracking, staff update handling, and
+              end-of-treatment flow. Includes a 6th error handler workflow that
+              monitors all workflows and sends failure alerts.
             </p>
             <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
-            </div>
-            <div className="butview">
-              <button className="livep">Live Preview</button>
-              <button className="vcode">
-                View Code{" "}
-                <span>
-                  <IoLogoGithub />
-                </span>
-              </button>
+              <p className="n8nn">n8n</p>
+              <p className="httt">Airtable</p>
+              <p className="csss">Fillout</p>
+              <p className="gmaii">Gmail</p>
             </div>
           </div>
         </div>
-        <img className="illupro7" src={illupro7} alt="" />
-      </section> */}
+      </section>
 
-      {/* =========================PROJECT 8=========================== */}
+      {/* =========================PROJECT 8 — Financial Document Automation=========================== */}
 
-      {/* <section className="project8">
+      <section className="project8">
         <div
           className="portfolio8 reveal-from-left"
-          data-sr="enter left 100px over 1s"
-        >
+          data-sr="enter left 100px over 1s">
           <div className="sidel2">
-            <h3>Project name</h3>
+            <h3>Financial Document Automation</h3>
             <p className="prodes">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-              laborum commodi veniam nemo, tempore minima enim temporibus non
-              adipisci labore qui delectus magnam omnis nulla optio ab soluta
-              aut. Quisquam.
+              Automates invoice processing for businesses. Gmail receives
+              financial documents, Gemini AI extracts vendor, amount, invoice
+              number and due date, saves to Google Drive, creates a review task
+              in ClickUp, and logs everything to Google Sheets — zero manual
+              data entry.
             </p>
             <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
-            </div>
-            <div className="butview">
-              <button className="livep">Live Preview</button>
-              <button className="vcode">
-                View Code{" "}
-                <span>
-                  <IoLogoGithub />
-                </span>
-              </button>
+              <p className="gmaii">Gmail</p>
+              <p className="httt">Gemini AI</p>
+              <p className="gdrvv">Google Drive</p>
+              <p className="gshe">Google Sheets</p>
+              <p className="clkup">ClickUp</p>
+              <p className="n8nn">n8n</p>
             </div>
           </div>
           <div className="sider2">
-            <img src={project8} alt="project1" />
+            <img
+              src={project4}
+              alt="Financial Document Automation"
+            />
           </div>
         </div>
-        <img className="illupro8" src={illupro8} alt="" />
-      </section> */}
+      </section>
 
-      {/* =========================PROJECT 9============================= */}
+      {/* =========================PROJECT 9 — Solar Lead Automation============================= */}
 
-      {/* <section className="project9">
+      <section className="project9">
         <div
           className="portfolio9 reveal-from-right"
-          data-sr="enter right 100px over 1s"
-        >
+          data-sr="enter right 100px over 1s">
           <div className="sideleft">
-            <img src={project9} alt="project1" />
+            <img
+              src={project5}
+              alt="Solar Lead Automation"
+            />
           </div>
           <div className="sideright">
-            <h3>Project name</h3>
+            <h3 className="text-start">Solar Lead Automation System</h3>
             <p className="prodes">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-              laborum commodi veniam nemo, tempore minima enim temporibus non
-              adipisci labore qui delectus magnam omnis nulla optio ab soluta
-              aut. Quisquam.
+              A complete lead-to-booking pipeline for solar companies. Calculates
+              a personalised solar savings estimate instantly from form data,
+              creates a Notion CRM record, sends a branded HTML email with the
+              full offer breakdown, fires a WhatsApp message via Twilio, and runs
+              hourly follow-up sequences automatically.
             </p>
             <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
-            </div>
-            <div className="butview">
-              <button className="livep">Live Preview</button>
-              <button className="vcode">
-                View Code{" "}
-                <span>
-                  <IoLogoGithub />
-                </span>
-              </button>
+              <p className="n8nn">n8n</p>
+              <p className="twilio">Twilio</p>
+              <p className="notn">Notion</p>
+              <p className="gmaii">Gmail</p>
+              <p className="webh">Webhooks</p>
+              <p className="jsss">JavaScript</p>
             </div>
           </div>
         </div>
-        <img className="illupro9" src={illupro9} alt="" />
-      </section> */}
+      </section>
 
-      {/* =========================PROJECT 10=========================== */}
+      {/* =========================PROJECT 10 — AI Invoice Generator=========================== */}
 
-      {/* <section className="project10">
+      <section className="project10">
         <div
           className="portfolio10 reveal-from-left"
-          data-sr="enter left 100px over 1s"
-        >
+          data-sr="enter left 100px over 1s">
           <div className="sidel2">
-            <h3>Project name</h3>
+            <h3>AI Invoice Generator</h3>
             <p className="prodes">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-              laborum commodi veniam nemo, tempore minima enim temporibus non
-              adipisci labore qui delectus magnam omnis nulla optio ab soluta
-              aut. Quisquam.
+              Automated invoice generation system for freelancers and service
+              businesses. A client fills a form, the system generates a unique
+              invoice number, copies a Google Docs template, fills all fields
+              automatically, saves to Google Drive, logs to a Notion tracker,
+              and sends a branded email to the client — all in seconds.
             </p>
             <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
-            </div>
-            <div className="butview">
-              <button className="livep">Live Preview</button>
-              <button className="vcode">
-                View Code{" "}
-                <span>
-                  <IoLogoGithub />
-                </span>
-              </button>
+              <p className="n8nn">n8n</p>
+              <p className="csss">Fillout</p>
+              <p className="gdocc">Google Docs</p>
+              <p className="gdrvv">Google Drive</p>
+              <p className="notn">Notion</p>
+              <p className="gmaii">Gmail</p>
             </div>
           </div>
           <div className="sider2">
-            <img src={project10} alt="project1" />
+            <img
+              src={project1}
+              alt="AI Invoice Generator"
+            />
           </div>
         </div>
-        <img className="illupro10" src={illupro10} alt="" />
-      </section> */}
+      </section>
 
-      {/* =========================PROJECT 11============================= */}
-      {/* 
+      {/* =========================PROJECT 11 — ResumeIQ============================= */}
+
       <section className="project11">
         <div
           className="portfolio11 reveal-from-right"
-          data-sr="enter right 100px over 1s"
-        >
+          data-sr="enter right 100px over 1s">
           <div className="sideleft">
-            <img src={project11} alt="project1" />
+            <img
+              src={project2}
+              alt="ResumeIQ"
+            />
           </div>
           <div className="sideright">
-            <h3>Project name</h3>
+            <h3 className="text-start">ResumeIQ — AI Resume Analyzer</h3>
             <p className="prodes">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-              laborum commodi veniam nemo, tempore minima enim temporibus non
-              adipisci labore qui delectus magnam omnis nulla optio ab soluta
-              aut. Quisquam.
+              A live web app that lets users upload their resume and receive
+              structured AI feedback on skills, gaps, and improvement areas
+              instantly.
             </p>
             <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
+              <p className="reac">React</p>
+              <p className="n8nn">n8n</p>
+              <p className="grqo">Groq</p>
+              <p className="mongo">MongoDB</p>
+              <p className="supab">Vercel</p>
             </div>
             <div className="butview">
-              <button className="livep">Live Preview</button>
-              <button className="vcode">
-                View Code{" "}
-                <span>
-                  <IoLogoGithub />
-                </span>
-              </button>
+              <a
+                href="https://resume-iq-nu.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button className="livep border-0">Live Site</button>
+              </a>
+              <a
+                href="https://github.com/laurenjude"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button className="vcode border-0">
+                  GitHub{" "}<span><IoLogoGithub /></span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
         <img
-          className="illupro11 reveal-from-bottom"
-          data-sr="enter bottom 100px over 2s"
-          src={illupro11}
+          className="illupro11"
+          src={illupro5}
           alt=""
         />
-      </section> */}
-
-      {/* =========================PROJECT 12=========================== */}
-
-      {/* <section className="project12">
-        <div
-          className="portfolio12 reveal-from-left"
-          data-sr="enter left 100px over 1s"
-        >
-          <div className="sidel2">
-            <h3>Project name</h3>
-            <p className="prodes">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-              laborum commodi veniam nemo, tempore minima enim temporibus non
-              adipisci labore qui delectus magnam omnis nulla optio ab soluta
-              aut. Quisquam.
-            </p>
-            <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
-            </div>
-            <div className="butview">
-              <button className="livep">Live Preview</button>
-              <button className="vcode">
-                View Code{" "}
-                <span>
-                  <IoLogoGithub />
-                </span>
-              </button>
-            </div>
-          </div>
-          <div className="sider2">
-            <img src={project12} alt="project1" />
-          </div>
-        </div>
-      </section> */}
-
-      {/* =========================PROJECT 13============================= */}
-
-      {/* <section className="project13">
-        <div
-          className="portfolio13 reveal-from-right"
-          data-sr="enter right 100px over 1s"
-        >
-          <div className="sideleft">
-            <img src={project13} alt="project1" />
-          </div>
-          <div className="sideright">
-            <h3>Project name</h3>
-            <p className="prodes">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-              laborum commodi veniam nemo, tempore minima enim temporibus non
-              adipisci labore qui delectus magnam omnis nulla optio ab soluta
-              aut. Quisquam.
-            </p>
-            <div className="techno">
-              <p className="httt">HTML</p>
-              <p className="csss">CSS</p>
-              <p className="jsss">JS</p>
-              <p className="appp">API</p>
-            </div>
-            <div className="butview">
-              <button className="livep">Live Preview</button>
-              <button className="vcode">
-                View Code{" "}
-                <span>
-                  <IoLogoGithub />
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <img
-          className="illupro11 reveal-from-bottom"
-          data-sr="enter bottom 100px over 2s"
-          src={illupro11}
-          alt=""
-        />
-      </section> */}
+      </section>
     </div>
   );
 };

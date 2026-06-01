@@ -560,31 +560,31 @@ const LandingPage = () => {
             <div className="html">
               <img
                 src={html}
-                alt="html"
+                alt="n8n"
               />
               <div>
-                <h5>HTML</h5>
-                <p>2+ Years Experience</p>
+                <h5>n8n</h5>
+                <p>Production Workflows</p>
               </div>
             </div>
             <div className="css">
               <img
                 src={css}
-                alt="css"
+                alt="vapi"
               />
               <div>
-                <h5>CSS</h5>
-                <p>2+ Years Experience</p>
+                <h5>Vapi</h5>
+                <p>Voice Agents</p>
               </div>
             </div>
             <div className="java">
               <img
                 src={java}
-                alt="javascript"
+                alt="gemini ai"
               />
               <div>
-                <h5>JAVASCRIPT</h5>
-                <p>1+ Years Experience</p>
+                <h5>Gemini AI</h5>
+                <p>LLM Integration</p>
               </div>
             </div>
             <div className="react">
@@ -593,8 +593,8 @@ const LandingPage = () => {
                 alt="react"
               />
               <div>
-                <h5>REACT.JS</h5>
-                <p>1+ years Experience</p>
+                <h5>React.js</h5>
+                <p>Full-Stack Platforms</p>
               </div>
             </div>
           </div>
@@ -605,11 +605,11 @@ const LandingPage = () => {
             <div className="python">
               <img
                 src={n8n}
-                alt="n8n"
+                alt="supabase"
               />
               <div>
-                <h5>n8n</h5>
-                <p>3+ Months Experience</p>
+                <h5>Supabase</h5>
+                <p>Database & Auth</p>
               </div>
             </div>
             <div className="node">
@@ -618,18 +618,28 @@ const LandingPage = () => {
                 alt="airtable"
               />
               <div>
-                <h5>AIRTABLE</h5>
-                <p>3+ months Experience</p>
+                <h5>Airtable</h5>
+                <p>Data Management</p>
               </div>
             </div>
             <div className="vue">
               <img
                 src={fillout}
-                alt="fillout"
+                alt="pinecone"
               />
               <div>
-                <h5>Fillout</h5>
-                <p>3+ Months Experience</p>
+                <h5>Pinecone</h5>
+                <p>Vector Search</p>
+              </div>
+            </div>
+            <div className="sass">
+              <img
+                src={sass}
+                alt="groq openai"
+              />
+              <div>
+                <h5>Groq/OpenAI</h5>
+                <p>AI Models</p>
               </div>
             </div>
           </div>
@@ -647,68 +657,119 @@ const LandingPage = () => {
           My Projects
         </p>
         <div className="proo">
-          <div
-            className="web1 reveal-from-right"
-            data-sr="enter right 50px over 1s">
-            <img
-              src={Pospadi}
-              alt="pos-padi"
-            />
-            <div className="prodep1 mt-4">
-              <p>Pos-Padi</p>
-              <h5>15/03/2025</h5>
-            </div>
-          </div>
 
+          {/* ── Featured Project 1 — Laurelle Realty ── */}
           <div
-            className="web4 reveal-from-left"
+            className="feat-card reveal-from-left"
             data-sr="enter left 50px over 1s">
-            <div className="prodep4 mb-4">
-              <p>Banking App</p>
-              <h5>01/04/2025</h5>
-            </div>
             <img
-              src={web5}
-              alt="web5"
+              src={web3}
+              alt="Laurelle Realty"
             />
+            <div className="feat-card-body">
+              <p className="feat-title">Laurelle Realty — AI Real Estate Platform</p>
+              <p className="feat-desc">
+                Full-stack AI-powered real estate platform for Lagos with
+                RAG-powered chat agent and 4 automation workflows
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">React</p>
+                <p className="csss">Supabase</p>
+                <p className="jsss">n8n</p>
+                <p className="appp">Pinecone</p>
+                <p className="n8nn">OpenRouter</p>
+              </div>
+              <div className="feat-btns">
+                <a
+                  href="https://laurelle-realty.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <button className="feat-live border-0">View Live</button>
+                </a>
+              </div>
+            </div>
           </div>
 
+          {/* ── Featured Project 2 — Mama Tee's Kitchen ── */}
           <div
-            className="web1 reveal-from-right"
+            className="feat-card reveal-from-right"
             data-sr="enter right 50px over 1s">
             <img
               src={web7}
-              alt="web7"
+              alt="Mama Tees Kitchen"
             />
-            <div className="prodep1 mt-4">
-              <p>Baby-Place</p>
-              <h5>02/15/2024</h5>
+            <div className="feat-card-body">
+              <p className="feat-title">Mama Tee's Kitchen — AI Voice Concierge</p>
+              <p className="feat-desc">
+                24/7 AI phone agent handling orders, reservations and escalations
+                via live calls with full CRM logging
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">Vapi</p>
+                <p className="csss">GPT-4.1</p>
+                <p className="jsss">n8n</p>
+                <p className="appp">ElevenLabs</p>
+                <p className="n8nn">Airtable</p>
+              </div>
+              <div className="feat-btns">
+                <a
+                  href="https://loom.com/share/b0c70f028aae41cfa79809ff54e68127"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <button className="feat-loom border-0">Watch Demo</button>
+                </a>
+              </div>
             </div>
           </div>
+
+          {/* ── Featured Project 3 — Solar Lead Automation ── */}
           <div
-            className="web2 reveal-from-left"
+            className="feat-card reveal-from-left"
             data-sr="enter left 50px over 1s">
-            <div className="prodep2 mb-4">
-              <p>DESSERTS-APP</p>
-              <h5>03/17/2024</h5>
-            </div>
             <img
               src={web2}
-              alt="web2"
+              alt="Solar Lead Automation"
             />
-          </div>
-          <div
-            className="web3 reveal-from-right"
-            data-sr="enter right 50px over 1s">
-            <img
-              src={web3}
-              alt="web3"
-            />
-            <div className="prodep3 mt-4">
-              <p>GLOBE-APP</p>
-              <h5>03/29/2024</h5>
+            <div className="feat-card-body">
+              <p className="feat-title">Solar Lead Automation System</p>
+              <p className="feat-desc">
+                Full lead-to-follow-up pipeline with instant AI offer
+                calculation, WhatsApp delivery and Notion CRM
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">n8n</p>
+                <p className="csss">Twilio</p>
+                <p className="jsss">Notion</p>
+                <p className="appp">Gmail</p>
+                <p className="n8nn">Webhooks</p>
+              </div>
             </div>
           </div>
+
+          {/* ── Featured Project 4 — AI Invoice Generator ── */}
+          <div
+            className="feat-card reveal-from-right"
+            data-sr="enter right 50px over 1s">
+            <img
+              src={web5}
+              alt="AI Invoice Generator"
+            />
+            <div className="feat-card-body">
+              <p className="feat-title">AI Invoice Generator</p>
+              <p className="feat-desc">
+                Automated invoice creation — form to Google Doc to Notion
+                tracker to branded client email in seconds
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">n8n</p>
+                <p className="csss">Fillout</p>
+                <p className="jsss">Google Docs</p>
+                <p className="appp">Notion</p>
+                <p className="n8nn">Gmail</p>
+              </div>
+            </div>
+          </div>
+
         </div>
         <Link
           to="top"

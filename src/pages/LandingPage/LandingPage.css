@@ -1035,15 +1035,11 @@
   border-radius: 20px;
 }
 
-.proo img {
-  width: 500px;
-}
-
 .proo {
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
-  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 60px;
 }
 
 .web1,
@@ -1125,20 +1121,8 @@
     margin-top: 10px;
   }
 
-  .proo img {
-    width: 100%;
-  }
-
-  .web1,
-  .web3 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .web2,
-  .web4 {
-    display: flex;
-    flex-direction: column;
+  .proo {
+    grid-template-columns: 1fr;
   }
 
   .arrowdd {
@@ -1215,15 +1199,10 @@
     gap: 0px;
   }
 
-  .web2,
-  .web4 {
-    gap: 20px;
-    flex-direction: column-reverse;
-  }
-
   .proo {
-    margin-top: 50px;
-    gap: 30px;
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    gap: 20px;
   }
 
   .morepro {
@@ -1452,5 +1431,100 @@
   .messcar .ymh {
     margin-top: 0;
     gap: 0;
+  }
+}
+
+/* ========================= FEATURED PROJECT CARDS ========================= */
+
+.feat-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(123, 31, 162, 0.35);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.feat-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(123, 31, 162, 0.7);
+}
+
+.feat-card > img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.feat-card-body {
+  padding: 18px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: start;
+  flex: 1;
+}
+
+.feat-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--Primary-Text);
+  margin-bottom: 0;
+  line-height: 20px;
+}
+
+.feat-desc {
+  font-size: 11px;
+  color: var(--Secondary-Text);
+  line-height: 18px;
+  margin-bottom: 0;
+}
+
+.feat-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.feat-tags p {
+  margin-bottom: 0;
+  padding-right: 0 !important;
+}
+
+.feat-btns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.feat-live,
+.feat-loom {
+  background-color: var(--Accent-Purple);
+  color: var(--Primary-Text);
+  font-weight: 700;
+  font-size: 12px;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.feat-loom {
+  background-color: var(--Accent-Sky-Blue);
+}
+
+/* .n8nn tag colour used inside feat-tags */
+.n8nn {
+  color: #a78bfa;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .feat-card > img {
+    height: 160px;
   }
 }
