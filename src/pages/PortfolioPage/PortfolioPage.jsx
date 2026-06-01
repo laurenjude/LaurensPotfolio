@@ -117,7 +117,7 @@ const PortfolioPage = () => {
             />
           </div>
           <div className="sideright">
-            <h3 className="text-start">Laurelle Realty — AI Real Estate Platform</h3>
+            <h3 className="text-start">Laurelle Realty: AI Real Estate Platform</h3>
             <p className="prodes">
               A full-stack AI-powered real estate platform for the Lagos property
               market. Features a RAG-powered chat agent that answers property FAQs
@@ -161,7 +161,7 @@ const PortfolioPage = () => {
           className="portfolio2 reveal-from-left"
           data-sr="enter left 100px over 1s">
           <div className="sidel2">
-            <h3>Mama Tee's Kitchen — AI Voice Concierge</h3>
+            <h3>Mama Tee's Kitchen: AI Voice Concierge</h3>
             <p className="prodes">
               A 24/7 AI phone concierge for a Nigerian restaurant that handles
               live orders, reservations, and customer escalations via real phone
@@ -219,7 +219,7 @@ const PortfolioPage = () => {
             <h3 className="text-start">Orthodontic Clinic Management System</h3>
             <p className="prodes">
               A complete 5-workflow automation system for an orthodontic clinic
-              covering the full patient lifecycle — booking, appointment
+              covering the full patient lifecycle: booking, appointment
               reminders, payment plan tracking, staff update handling, and
               end-of-treatment flow. Includes a 6th error handler workflow that
               monitors all workflows and sends failure alerts.
@@ -246,7 +246,7 @@ const PortfolioPage = () => {
               Automates invoice processing for businesses. Gmail receives
               financial documents, Gemini AI extracts vendor, amount, invoice
               number and due date, saves to Google Drive, creates a review task
-              in ClickUp, and logs everything to Google Sheets — zero manual
+              in ClickUp, and logs everything to Google Sheets with zero manual
               data entry.
             </p>
             <div className="techno">
@@ -313,7 +313,7 @@ const PortfolioPage = () => {
               businesses. A client fills a form, the system generates a unique
               invoice number, copies a Google Docs template, fills all fields
               automatically, saves to Google Drive, logs to a Notion tracker,
-              and sends a branded email to the client — all in seconds.
+              and sends a branded email to the client, all in seconds.
             </p>
             <div className="techno">
               <p className="n8nn">n8n</p>
@@ -346,7 +346,7 @@ const PortfolioPage = () => {
             />
           </div>
           <div className="sideright">
-            <h3 className="text-start">ResumeIQ — AI Resume Analyzer</h3>
+            <h3 className="text-start">ResumeIQ: AI Resume Analyzer</h3>
             <p className="prodes">
               A live web app that lets users upload their resume and receive
               structured AI feedback on skills, gaps, and improvement areas

@@ -405,7 +405,7 @@ const LandingPage = () => {
           <div className="parab">
             <p className="highly">
               AI Automation Specialist & Frontend Developer with a passion for
-              building systems that eliminate manual work for businesses — from
+              building systems that eliminate manual work for businesses, from
               clinic management to membership platforms.{" "}
               <span>
                 I build with n8n, Airtable, and Fillout to automate workflows,
@@ -671,7 +671,7 @@ const LandingPage = () => {
               alt="Laurelle Realty"
             />
             <div className="feat-card-body">
-              <p className="feat-title">Laurelle Realty — AI Real Estate Platform</p>
+              <p className="feat-title">Laurelle Realty: AI Real Estate Platform</p>
               <p className="feat-desc">
                 Full-stack AI-powered real estate platform for Lagos with
                 RAG-powered chat agent and 4 automation workflows
@@ -703,7 +703,7 @@ const LandingPage = () => {
               alt="Mama Tees Kitchen"
             />
             <div className="feat-card-body">
-              <p className="feat-title">Mama Tee's Kitchen — AI Voice Concierge</p>
+              <p className="feat-title">Mama Tee's Kitchen: AI Voice Concierge</p>
               <p className="feat-desc">
                 24/7 AI phone agent handling orders, reservations and escalations
                 via live calls with full CRM logging
@@ -761,7 +761,7 @@ const LandingPage = () => {
             <div className="feat-card-body">
               <p className="feat-title">AI Invoice Generator</p>
               <p className="feat-desc">
-                Automated invoice creation — form to Google Doc to Notion
+                Automated invoice creation from Google Doc to Notion
                 tracker to branded client email in seconds
               </p>
               <div className="techno feat-tags">
