@@ -152,11 +152,6 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
-        <img
-          className="illupro1"
-          src={illupro5}
-          alt=""
-        />
       </section>
 
       {/* =========================PROJECT 2 — Mama Tee's Kitchen=========================== */}
@@ -206,11 +201,6 @@ const PortfolioPage = () => {
             />
           </div>
         </div>
-        <img
-          className="illupro2"
-          src={illupro2}
-          alt=""
-        />
       </section>
 
       {/* =========================PROJECT 3 — Orthodontic Clinic============================= */}
@@ -242,11 +232,6 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
-        <img
-          className="illupro3"
-          src={illupro3}
-          alt=""
-        />
       </section>
 
       {/* =========================PROJECT 4 — Financial Document Automation=========================== */}
@@ -280,11 +265,6 @@ const PortfolioPage = () => {
             />
           </div>
         </div>
-        <img
-          className="illupro4"
-          src={illupro4}
-          alt=""
-        />
       </section>
 
       {/* =========================PROJECT 5 — Solar Lead Automation============================= */}
@@ -318,11 +298,6 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
-        <img
-          className="illupro5"
-          src={illupro5}
-          alt=""
-        />
       </section>
 
       {/* =========================PROJECT 6 — AI Invoice Generator=========================== */}
