@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1008" viewBox="0 0 1920 1008">
+  <defs>
+    <linearGradient id="bgBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1a2b"/>
+      <stop offset="100%" stop-color="#14243d"/>
+    </linearGradient>
+    <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#039be5"/>
+      <stop offset="50%" stop-color="#4fc3f7"/>
+      <stop offset="100%" stop-color="#b16cea"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1008" fill="url(#bgBlue)"/>
+  <rect x="0" y="0" width="1920" height="10" fill="url(#blueAccent)"/>
+  <rect x="0" y="998" width="1920" height="10" fill="url(#blueAccent)"/>
+  <circle cx="960" cy="460" r="200" fill="none" stroke="url(#blueAccent)" stroke-width="2" opacity="0.4"/>
+  <ellipse cx="960" cy="460" rx="200" ry="80" fill="none" stroke="url(#blueAccent)" stroke-width="1.5" opacity="0.3"/>
+  <ellipse cx="960" cy="460" rx="200" ry="80" fill="none" stroke="url(#blueAccent)" stroke-width="1.5" opacity="0.3" transform="rotate(60 960 460)"/>
+  <ellipse cx="960" cy="460" rx="200" ry="80" fill="none" stroke="url(#blueAccent)" stroke-width="1.5" opacity="0.3" transform="rotate(120 960 460)"/>
+  <text x="960" y="640" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="80" font-weight="700" fill="#ffffff">Horizon Interpreters</text>
+  <text x="960" y="690" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#8fb4d1" letter-spacing="4">47-LANGUAGE INTERPRETING SERVICE PLATFORM</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <rect x="680" y="740" width="150" height="46" rx="23" fill="#7b1fa2" opacity="0.85"/>
+    <text x="755" y="770">React</text>
+    <rect x="850" y="740" width="180" height="46" rx="23" fill="#a78bfa" opacity="0.85"/>
+    <text x="940" y="770">n8n</text>
+    <rect x="1050" y="740" width="190" height="46" rx="23" fill="#039be5" opacity="0.85"/>
+    <text x="1145" y="770">Airtable</text>
+    <rect x="1260" y="740" width="190" height="46" rx="23" fill="#2CA5E0" opacity="0.85"/>
+    <text x="1355" y="770">Telegram</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1008" viewBox="0 0 1920 1008">
+  <defs>
+    <linearGradient id="bgGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#1c1508"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#caa14b"/>
+      <stop offset="50%" stop-color="#f0d78c"/>
+      <stop offset="100%" stop-color="#caa14b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1008" fill="url(#bgGold)"/>
+  <rect x="0" y="0" width="1920" height="8" fill="url(#gold)"/>
+  <rect x="0" y="1000" width="1920" height="8" fill="url(#gold)"/>
+  <circle cx="960" cy="504" r="330" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.35"/>
+  <circle cx="960" cy="504" r="380" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.2"/>
+  <g stroke="url(#gold)" stroke-width="3" fill="none" opacity="0.8">
+    <circle cx="960" cy="380" r="46"/>
+    <line x1="960" y1="426" x2="960" y2="470"/>
+    <line x1="890" y1="470" x2="1030" y2="470"/>
+    <line x1="890" y1="470" x2="860" y2="520"/>
+    <line x1="1030" y1="470" x2="1060" y2="520"/>
+  </g>
+  <text x="960" y="600" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="80" font-weight="700" fill="#f4e6bc">Automation Prime Africa</text>
+  <text x="960" y="655" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#a0a0a0" letter-spacing="5">AUTOMATION CONSULTANCY &amp; AGENCY WEBSITE</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#0d0d0d" text-anchor="middle">
+    <rect x="760" y="710" width="150" height="46" rx="23" fill="url(#gold)"/>
+    <text x="835" y="740">React</text>
+    <rect x="930" y="710" width="130" height="46" rx="23" fill="url(#gold)"/>
+    <text x="995" y="740">Vite</text>
+    <rect x="1080" y="710" width="220" height="46" rx="23" fill="url(#gold)"/>
+    <text x="1190" y="740">Tailwind CSS</text>
+  </g>
+</svg>

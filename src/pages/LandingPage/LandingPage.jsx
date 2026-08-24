@@ -28,10 +28,10 @@ import web7 from "../../assets/Assets/Social Icons/bbbbaby.png";
 import web2 from "../../assets/Assets/Social Icons/DESSERTS.png";
 import web5 from "../../assets/Assets/Social Icons/WhatsApp Image 2025-03-31 at 13.33.03_5663f6d6.jpg";
 import web3 from "../../assets/Assets/Social Icons/GLOBE.png";
-import projLaurelle from "../../assets/Assets/Logos/proj-laurelle.png";
+import projOrthodontic from "../../assets/Assets/Logos/proj-orthodontic.png";
+import projLegalflow from "../../assets/Assets/Logos/proj-legalflow.svg";
+import projApa from "../../assets/Assets/Logos/proj-apa.svg";
 import projMamatee from "../../assets/Assets/Logos/proj-mamatee.png";
-import projSolar from "../../assets/Assets/Logos/proj-solar.png";
-import projInvoice from "../../assets/Assets/Logos/proj-invoice.png";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import arrowddown from "../../assets/Assets/Logos/arrow1.png";
 import cross1 from "../../assets/Assets/Logos/cross1.png";
@@ -304,7 +304,7 @@ const LandingPage = () => {
         <div
           className="landing-content text-start reveal-from-top"
           data-sr="enter top 100px over 1s">
-          <h3>AI AUTOMATION SPECIALIST</h3>
+          <h3>AI AUTOMATION ENGINEER</h3>
           <div className="loothi">
             <Lottie
               options={defaultOptions}
@@ -314,9 +314,10 @@ const LandingPage = () => {
           </div>
           <p className="name-big">I'm Lauren, Jude</p>
           <p className="based">
-            I build automated systems that eliminate manual work for businesses
-            using n8n, Airtable, and Fillout to connect tools, track data, and
-            send communications automatically.
+            Co-Founder, Automation Prime Africa &mdash; Lagos, Nigeria. I build
+            intelligent automation systems and production-ready platforms for
+            businesses across Africa and internationally, from React
+            dashboards to n8n workflows and AI voice agents.
           </p>
         </div>
         <div className="illustration ">
@@ -404,14 +405,19 @@ const LandingPage = () => {
           />
           <div className="parab">
             <p className="highly">
-              AI Automation Specialist & Frontend Developer with a passion for
-              building systems that eliminate manual work for businesses, from
-              clinic management to membership platforms.{" "}
+              I build intelligent automation systems and production-ready
+              platforms for businesses across Africa and internationally. My
+              work spans complete system architecture from React dashboards
+              with authentication to n8n workflow automation, AI voice
+              agents, and database design.{" "}
               <span>
-                I build with n8n, Airtable, and Fillout to automate workflows,
-                track data, and help businesses run themselves.{" "}
+                I specialise in turning manual business operations into
+                automated platforms that clients log into every day without
+                thinking about the technology underneath.{" "}
               </span>
-              I just Love Building.
+              Co-Founder and Technical Lead at Automation Prime Africa where
+              we design and deploy automation solutions for healthcare,
+              legal, energy, hospitality, and interpreting services.
             </p>
 
             <div
@@ -578,17 +584,17 @@ const LandingPage = () => {
               />
               <div>
                 <h5>Vapi</h5>
-                <p>Voice Agents</p>
+                <p>AI Voice Agents</p>
               </div>
             </div>
             <div className="java">
               <img
                 src={java}
-                alt="gemini ai"
+                alt="claude code"
               />
               <div>
-                <h5>Gemini AI</h5>
-                <p>LLM Integration</p>
+                <h5>Claude Code</h5>
+                <p>AI-Assisted Development</p>
               </div>
             </div>
             <div className="react">
@@ -629,21 +635,21 @@ const LandingPage = () => {
             <div className="vue">
               <img
                 src={fillout}
-                alt="pinecone"
+                alt="node.js"
               />
               <div>
-                <h5>Pinecone</h5>
-                <p>Vector Search</p>
+                <h5>Node.js</h5>
+                <p>Backend &amp; APIs</p>
               </div>
             </div>
             <div className="sass">
               <img
                 src={sass}
-                alt="groq openai"
+                alt="webhooks"
               />
               <div>
-                <h5>Groq/OpenAI</h5>
-                <p>AI Models</p>
+                <h5>Webhooks</h5>
+                <p>REST APIs &amp; Webhooks</p>
               </div>
             </div>
           </div>
@@ -662,30 +668,30 @@ const LandingPage = () => {
         </p>
         <div className="proo">
 
-          {/* ── Featured Project 1 — Laurelle Realty ── */}
+          {/* ── Featured Project 1 — OrthoClinic Pro ── */}
           <div
             className="feat-card reveal-from-left"
             data-sr="enter left 50px over 1s">
             <img
-              src={projLaurelle}
-              alt="Laurelle Realty"
+              src={projOrthodontic}
+              alt="OrthoClinic Pro"
             />
             <div className="feat-card-body">
-              <p className="feat-title">Laurelle Realty: AI Real Estate Platform</p>
+              <p className="feat-title">OrthoClinic Pro: Clinic Management Platform</p>
               <p className="feat-desc">
-                Full-stack AI-powered real estate platform for Lagos with
-                RAG-powered chat agent and 4 automation workflows
+                Complete clinic management platform with 5 automated n8n
+                workflows, a branded staff dashboard and a public booking page
               </p>
               <div className="techno feat-tags">
                 <p className="httt">React</p>
                 <p className="csss">Supabase</p>
                 <p className="jsss">n8n</p>
-                <p className="appp">Pinecone</p>
-                <p className="n8nn">OpenRouter</p>
+                <p className="appp">Airtable</p>
+                <p className="n8nn">Tailwind CSS</p>
               </div>
               <div className="feat-btns">
                 <a
-                  href="https://laurelle-realty.vercel.app"
+                  href="https://the-clinic-black.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer">
                   <button className="feat-live border-0">View Live</button>
@@ -694,7 +700,69 @@ const LandingPage = () => {
             </div>
           </div>
 
-          {/* ── Featured Project 2 — Mama Tee's Kitchen ── */}
+          {/* ── Featured Project 2 — LegalFlow AI ── */}
+          <div
+            className="feat-card reveal-from-right"
+            data-sr="enter right 50px over 1s">
+            <img
+              src={projLegalflow}
+              alt="LegalFlow AI"
+            />
+            <div className="feat-card-body">
+              <p className="feat-title">LegalFlow AI: Law Firm Case Management</p>
+              <p className="feat-desc">
+                Case management platform with 6 interconnected n8n workflows
+                covering intake, billing, deadlines and daily briefings
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">React</p>
+                <p className="csss">Supabase</p>
+                <p className="jsss">n8n</p>
+                <p className="appp">Airtable</p>
+                <p className="n8nn">Tailwind CSS</p>
+              </div>
+              <div className="feat-btns">
+                <a
+                  href="https://legal-flow-ai.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <button className="feat-live border-0">View Live</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* ── Featured Project 3 — Automation Prime Africa ── */}
+          <div
+            className="feat-card reveal-from-left"
+            data-sr="enter left 50px over 1s">
+            <img
+              src={projApa}
+              alt="Automation Prime Africa"
+            />
+            <div className="feat-card-body">
+              <p className="feat-title">Automation Prime Africa: Company Website</p>
+              <p className="feat-desc">
+                Dark premium theme with gold accents, animated hero, embedded
+                Calendly booking and live client demo showcases
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">React</p>
+                <p className="csss">Vite</p>
+                <p className="jsss">Tailwind CSS</p>
+              </div>
+              <div className="feat-btns">
+                <a
+                  href="https://automationprimeafrica.com"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <button className="feat-live border-0">View Live</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* ── Featured Project 4 — Mama Tee's Kitchen ── */}
           <div
             className="feat-card reveal-from-right"
             data-sr="enter right 50px over 1s">
@@ -705,15 +773,15 @@ const LandingPage = () => {
             <div className="feat-card-body">
               <p className="feat-title">Mama Tee's Kitchen: AI Voice Concierge</p>
               <p className="feat-desc">
-                24/7 AI phone agent handling orders, reservations and escalations
-                via live calls with full CRM logging
+                Live 24/7 AI phone agent handling orders, reservations and
+                escalations with 3 independent n8n backend workflows
               </p>
               <div className="techno feat-tags">
                 <p className="httt">Vapi</p>
-                <p className="csss">GPT-4.1</p>
+                <p className="csss">GPT-4</p>
                 <p className="jsss">n8n</p>
-                <p className="appp">ElevenLabs</p>
-                <p className="n8nn">Airtable</p>
+                <p className="appp">Airtable</p>
+                <p className="n8nn">Twilio</p>
               </div>
               <div className="feat-btns">
                 <a
@@ -722,54 +790,6 @@ const LandingPage = () => {
                   rel="noopener noreferrer">
                   <button className="feat-loom border-0">Watch Demo</button>
                 </a>
-              </div>
-            </div>
-          </div>
-
-          {/* ── Featured Project 3 — Solar Lead Automation ── */}
-          <div
-            className="feat-card reveal-from-left"
-            data-sr="enter left 50px over 1s">
-            <img
-              src={projSolar}
-              alt="Solar Lead Automation"
-            />
-            <div className="feat-card-body">
-              <p className="feat-title">Solar Lead Automation System</p>
-              <p className="feat-desc">
-                Full lead-to-follow-up pipeline with instant AI offer
-                calculation, WhatsApp delivery and Notion CRM
-              </p>
-              <div className="techno feat-tags">
-                <p className="httt">n8n</p>
-                <p className="csss">Twilio</p>
-                <p className="jsss">Notion</p>
-                <p className="appp">Gmail</p>
-                <p className="n8nn">Webhooks</p>
-              </div>
-            </div>
-          </div>
-
-          {/* ── Featured Project 4 — AI Invoice Generator ── */}
-          <div
-            className="feat-card reveal-from-right"
-            data-sr="enter right 50px over 1s">
-            <img
-              src={projInvoice}
-              alt="AI Invoice Generator"
-            />
-            <div className="feat-card-body">
-              <p className="feat-title">AI Invoice Generator</p>
-              <p className="feat-desc">
-                Automated invoice creation from Google Doc to Notion
-                tracker to branded client email in seconds
-              </p>
-              <div className="techno feat-tags">
-                <p className="httt">n8n</p>
-                <p className="csss">Fillout</p>
-                <p className="jsss">Google Docs</p>
-                <p className="appp">Notion</p>
-                <p className="n8nn">Gmail</p>
               </div>
             </div>
           </div>

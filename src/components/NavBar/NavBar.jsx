@@ -70,12 +70,12 @@ const NavBar = () => {
 
   // ==================EMAIL LINK=====================
 
-  const emailAddress = "https://www.laurenjude9@gmail.com";
+  const emailAddress = "mailto:laurenjude9@gmail.com";
 
   // ===================LINKEDIN LINK======================
 
   const linkedinProfileUrl =
-    "https://www.linkedin.com/in/lauren-jude-ifeloju-ogonno-97b90b1a2?.com";
+    "https://www.linkedin.com/in/lauren-jude-ifeloju-ogonno-97b90b1a2";
 
   // =======================GITHUB LINK============================
 
