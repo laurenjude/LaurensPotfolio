@@ -110,22 +110,22 @@
 
 .social-links img {
   width: 50px;
-  transition: width 0.7s ease;
+  transition: transform 0.7s ease;
   cursor: pointer;
 }
 
 .social-links img:hover {
-  width: 70px;
+  transform: scale(1.4);
 }
 
 .social-links .cv-icon {
   width: 40px;
-  transition: width 0.7s ease;
+  transition: transform 0.7s ease;
   cursor: pointer;
 }
 
 .social-links .cv-icon:hover {
-  width: 60px;
+  transform: scale(1.5);
 }
 
 /* Media queries for tablets */

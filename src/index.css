@@ -67,3 +67,9 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to top, #121212, #901296);
 }
+
+.apa-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

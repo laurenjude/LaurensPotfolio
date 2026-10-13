@@ -317,7 +317,7 @@ const LandingPage = () => {
           </div>
           <p className="name-big">I'm Lauren, Jude</p>
           <p className="based">
-            Founder, Automation Prime Africa, Lagos, Nigeria. I build complete
+            Founder, <a className="apa-link" href="https://automationprimeafrica.com" target="_blank" rel="noopener noreferrer">Automation Prime Africa</a>, Lagos, Nigeria. I build complete
             automation platforms for businesses across healthcare, legal,
             hospitality, interpreting, and education. From branded dashboards to
             workflow automation and AI voice agents, I deliver systems that
@@ -422,8 +422,8 @@ const LandingPage = () => {
               I have delivered systems across healthcare, legal, hospitality,
               interpreting, and education, including a school financial
               transparency platform built on Supabase with role-based access and
-              two-person approval workflows. Co-Founder and Technical Lead at
-              Automation Prime Africa where we design and deploy automation
+              two-person approval workflows. Founder and Technical Lead at{" "}
+              <a className="apa-link" href="https://automationprimeafrica.com" target="_blank" rel="noopener noreferrer">Automation Prime Africa</a> where we design and deploy automation
               solutions for businesses across the continent and internationally.
             </p>
 
@@ -752,7 +752,7 @@ const LandingPage = () => {
             />
             <div className="feat-card-body">
               <p className="feat-title">
-                Automation Prime Africa: Company Website
+                <a className="apa-link" href="https://automationprimeafrica.com" target="_blank" rel="noopener noreferrer">Automation Prime Africa</a>: Company Website
               </p>
               <p className="feat-desc">
                 Dark premium theme with gold accents, animated hero, embedded

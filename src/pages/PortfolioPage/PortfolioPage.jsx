@@ -176,9 +176,9 @@ const PortfolioPage = () => {
             />
           </div>
           <div className="sideright">
-            <h3 className="text-start">Automation Prime Africa: Company Website</h3>
+            <h3 className="text-start"><a className="apa-link" href="https://automationprimeafrica.com" target="_blank" rel="noopener noreferrer">Automation Prime Africa</a>: Company Website</h3>
             <p className="prodes">
-              The company website for Automation Prime Africa, my automation
+              The company website for <a className="apa-link" href="https://automationprimeafrica.com" target="_blank" rel="noopener noreferrer">Automation Prime Africa</a>, my automation
               consultancy. Dark premium theme with gold accents, animated
               hero section with a typewriter effect, auto-scrolling service
               cards, embedded Calendly booking, and client showcases
