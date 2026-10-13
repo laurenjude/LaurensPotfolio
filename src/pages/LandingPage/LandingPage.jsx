@@ -317,11 +317,18 @@ const LandingPage = () => {
           </div>
           <p className="name-big">I'm Lauren, Jude</p>
           <p className="based">
-            Founder, <a className="apa-link" href="https://automationprimeafrica.com" target="_blank" rel="noopener noreferrer">Automation Prime Africa</a>, Lagos, Nigeria. I build complete
-            automation platforms for businesses across healthcare, legal,
-            hospitality, interpreting, and education. From branded dashboards to
-            workflow automation and AI voice agents, I deliver systems that
-            replace manual operations entirely.
+            Founder at,{" "}
+            <a
+              className="apa-link"
+              href="https://automationprimeafrica.com"
+              target="_blank"
+              rel="noopener noreferrer">
+              Automation Prime Africa
+            </a>
+            . I build complete automation platforms for businesses across
+            healthcare, legal, hospitality, interpreting, and education. From
+            branded dashboards to workflow automation and AI voice agents, I
+            deliver systems that replace manual operations entirely.
           </p>
         </div>
         <div className="illustration ">
@@ -423,8 +430,15 @@ const LandingPage = () => {
               interpreting, and education, including a school financial
               transparency platform built on Supabase with role-based access and
               two-person approval workflows. Founder and Technical Lead at{" "}
-              <a className="apa-link" href="https://automationprimeafrica.com" target="_blank" rel="noopener noreferrer">Automation Prime Africa</a> where we design and deploy automation
-              solutions for businesses across the continent and internationally.
+              <a
+                className="apa-link"
+                href="https://automationprimeafrica.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                Automation Prime Africa
+              </a>{" "}
+              where we design and deploy automation solutions for businesses
+              across the continent and internationally.
             </p>
 
             <div
@@ -674,75 +688,7 @@ const LandingPage = () => {
           My Projects
         </p>
         <div className="proo">
-          {/* ── Featured Project 1 — OrthoClinic Pro ── */}
-          <div
-            className="feat-card reveal-from-left"
-            data-sr="enter left 50px over 1s">
-            <img
-              src={projOrthodontic}
-              alt="OrthoClinic Pro"
-            />
-            <div className="feat-card-body">
-              <p className="feat-title">
-                OrthoClinic Pro: Clinic Management Platform
-              </p>
-              <p className="feat-desc">
-                Complete clinic management platform with 5 automated n8n
-                workflows, a branded staff dashboard and a public booking page
-              </p>
-              <div className="techno feat-tags">
-                <p className="httt">React</p>
-                <p className="csss">Supabase</p>
-                <p className="jsss">n8n</p>
-                <p className="appp">Airtable</p>
-                <p className="n8nn">Tailwind CSS</p>
-              </div>
-              <div className="feat-btns">
-                <a
-                  href="https://the-clinic-black.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <button className="feat-live border-0">View Live</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* ── Featured Project 2 — LegalFlow AI ── */}
-          <div
-            className="feat-card reveal-from-right"
-            data-sr="enter right 50px over 1s">
-            <img
-              src={projLegalflow}
-              alt="LegalFlow AI"
-            />
-            <div className="feat-card-body">
-              <p className="feat-title">
-                LegalFlow AI: Law Firm Case Management
-              </p>
-              <p className="feat-desc">
-                Case management platform with 6 interconnected n8n workflows
-                covering intake, billing, deadlines and daily briefings
-              </p>
-              <div className="techno feat-tags">
-                <p className="httt">React</p>
-                <p className="csss">Supabase</p>
-                <p className="jsss">n8n</p>
-                <p className="appp">Airtable</p>
-                <p className="n8nn">Tailwind CSS</p>
-              </div>
-              <div className="feat-btns">
-                <a
-                  href="https://legal-flow-ai.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <button className="feat-live border-0">View Live</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* ── Featured Project 3 — Automation Prime Africa ── */}
+          {/* ── Featured Project 1 — Automation Prime Africa ── */}
           <div
             className="feat-card reveal-from-left"
             data-sr="enter left 50px over 1s">
@@ -752,7 +698,14 @@ const LandingPage = () => {
             />
             <div className="feat-card-body">
               <p className="feat-title">
-                <a className="apa-link" href="https://automationprimeafrica.com" target="_blank" rel="noopener noreferrer">Automation Prime Africa</a>: Company Website
+                <a
+                  className="apa-link"
+                  href="https://automationprimeafrica.com"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Automation Prime Africa
+                </a>
+                : Company Website
               </p>
               <p className="feat-desc">
                 Dark premium theme with gold accents, animated hero, embedded
@@ -774,44 +727,10 @@ const LandingPage = () => {
             </div>
           </div>
 
-          {/* ── Featured Project 4 — Mama Tee's Kitchen ── */}
+          {/* ── Featured Project 2 — Horizon Interpreters ── */}
           <div
             className="feat-card reveal-from-right"
             data-sr="enter right 50px over 1s">
-            <img
-              src={projMamatee}
-              alt="Mama Tees Kitchen"
-            />
-            <div className="feat-card-body">
-              <p className="feat-title">
-                Mama Tee's Kitchen: AI Voice Concierge
-              </p>
-              <p className="feat-desc">
-                Live 24/7 AI phone agent handling orders, reservations and
-                escalations with 3 independent n8n backend workflows
-              </p>
-              <div className="techno feat-tags">
-                <p className="httt">Vapi</p>
-                <p className="csss">GPT-4</p>
-                <p className="jsss">n8n</p>
-                <p className="appp">Airtable</p>
-                <p className="n8nn">Twilio</p>
-              </div>
-              <div className="feat-btns">
-                <a
-                  href="https://loom.com/share/b0c70f028aae41cfa79809ff54e68127"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <button className="feat-loom border-0">Watch Demo</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* ── Featured Project 5 — Horizon Interpreters ── */}
-          <div
-            className="feat-card reveal-from-left"
-            data-sr="enter left 50px over 1s">
             <img
               src={projHorizon}
               alt="Horizon Interpreters"
@@ -846,7 +765,42 @@ const LandingPage = () => {
             </div>
           </div>
 
-          {/* ── Featured Project 6 — Ember & Bun ── */}
+          {/* ── Featured Project 3 — LedgerEd ── */}
+          <div
+            className="feat-card reveal-from-left"
+            data-sr="enter left 50px over 1s">
+            <img
+              src={projLedgered}
+              alt="LedgerEd"
+            />
+            <div className="feat-card-body">
+              <p className="feat-title">
+                LedgerEd: School Financial Transparency Platform
+              </p>
+              <p className="feat-desc">
+                SaaS platform giving school proprietors real-time visibility
+                into fee collection, payroll, and expenses. Built on Supabase
+                with role-based access for four user types, two-person payment
+                verification, automated receipt generation, and comprehensive
+                financial reporting.
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">React</p>
+                <p className="csss">Supabase</p>
+                <p className="jsss">Tailwind CSS</p>
+                <p className="appp">n8n</p>
+              </div>
+              <div className="feat-btns">
+                <button
+                  className="feat-live border-0"
+                  disabled>
+                  Coming Soon
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* ── Featured Project 4 — Ember & Bun ── */}
           <div
             className="feat-card reveal-from-right"
             data-sr="enter right 50px over 1s">
@@ -880,37 +834,104 @@ const LandingPage = () => {
             </div>
           </div>
 
-          {/* ── Featured Project 7 — LedgerEd ── */}
+          {/* ── Featured Project 5 — OrthoClinic Pro ── */}
           <div
             className="feat-card reveal-from-left"
             data-sr="enter left 50px over 1s">
             <img
-              src={projLedgered}
-              alt="LedgerEd"
+              src={projOrthodontic}
+              alt="OrthoClinic Pro"
             />
             <div className="feat-card-body">
               <p className="feat-title">
-                LedgerEd: School Financial Transparency Platform
+                OrthoClinic Pro: Clinic Management Platform
               </p>
               <p className="feat-desc">
-                SaaS platform giving school proprietors real-time visibility
-                into fee collection, payroll, and expenses. Built on Supabase
-                with role-based access for four user types, two-person payment
-                verification, automated receipt generation, and comprehensive
-                financial reporting.
+                Complete clinic management platform with 5 automated n8n
+                workflows, a branded staff dashboard and a public booking page
               </p>
               <div className="techno feat-tags">
                 <p className="httt">React</p>
                 <p className="csss">Supabase</p>
-                <p className="jsss">Tailwind CSS</p>
-                <p className="appp">n8n</p>
+                <p className="jsss">n8n</p>
+                <p className="appp">Airtable</p>
+                <p className="n8nn">Tailwind CSS</p>
               </div>
               <div className="feat-btns">
-                <button
-                  className="feat-live border-0"
-                  disabled>
-                  Coming Soon
-                </button>
+                <a
+                  href="https://the-clinic-black.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <button className="feat-live border-0">View Live</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* ── Featured Project 6 — LegalFlow AI ── */}
+          <div
+            className="feat-card reveal-from-right"
+            data-sr="enter right 50px over 1s">
+            <img
+              src={projLegalflow}
+              alt="LegalFlow AI"
+            />
+            <div className="feat-card-body">
+              <p className="feat-title">
+                LegalFlow AI: Law Firm Case Management
+              </p>
+              <p className="feat-desc">
+                Case management platform with 6 interconnected n8n workflows
+                covering intake, billing, deadlines and daily briefings
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">React</p>
+                <p className="csss">Supabase</p>
+                <p className="jsss">n8n</p>
+                <p className="appp">Airtable</p>
+                <p className="n8nn">Tailwind CSS</p>
+              </div>
+              <div className="feat-btns">
+                <a
+                  href="https://legal-flow-ai.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <button className="feat-live border-0">View Live</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* ── Featured Project 7 — Mama Tee's Kitchen ── */}
+          <div
+            className="feat-card reveal-from-left"
+            data-sr="enter left 50px over 1s">
+            <img
+              src={projMamatee}
+              alt="Mama Tees Kitchen"
+            />
+            <div className="feat-card-body">
+              <p className="feat-title">
+                Mama Tee's Kitchen: AI Voice Concierge
+              </p>
+              <p className="feat-desc">
+                Live 24/7 AI phone agent handling orders, reservations and
+                escalations with 3 independent n8n backend workflows
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">Vapi</p>
+                <p className="csss">GPT-4</p>
+                <p className="jsss">n8n</p>
+                <p className="appp">Airtable</p>
+                <p className="n8nn">Twilio</p>
+              </div>
+              <div className="feat-btns">
+                <a
+                  href="https://loom.com/share/b0c70f028aae41cfa79809ff54e68127"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <button className="feat-loom border-0">Watch Demo</button>
+                </a>
               </div>
             </div>
           </div>
