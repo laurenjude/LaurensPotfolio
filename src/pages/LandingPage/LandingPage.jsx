@@ -32,6 +32,9 @@ import projOrthodontic from "../../assets/Assets/Logos/proj-orthodontic.png";
 import projLegalflow from "../../assets/Assets/Logos/proj-legalflow.svg";
 import projApa from "../../assets/Assets/Logos/proj-apa.svg";
 import projMamatee from "../../assets/Assets/Logos/proj-mamatee.png";
+import projHorizon from "../../assets/Assets/Logos/proj-horizon.svg";
+import projEmberbun from "../../assets/Assets/Logos/proj-emberbun.svg";
+import projLedgered from "../../assets/Assets/Logos/proj-ledgered.svg";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import arrowddown from "../../assets/Assets/Logos/arrow1.png";
 import cross1 from "../../assets/Assets/Logos/cross1.png";
@@ -314,10 +317,11 @@ const LandingPage = () => {
           </div>
           <p className="name-big">I'm Lauren, Jude</p>
           <p className="based">
-            Co-Founder, Automation Prime Africa &mdash; Lagos, Nigeria. I build
-            intelligent automation systems and production-ready platforms for
-            businesses across Africa and internationally, from React
-            dashboards to n8n workflows and AI voice agents.
+            Founder, Automation Prime Africa, Lagos, Nigeria. I build complete
+            automation platforms for businesses across healthcare, legal,
+            hospitality, interpreting, and education. From branded dashboards to
+            workflow automation and AI voice agents, I deliver systems that
+            replace manual operations entirely.
           </p>
         </div>
         <div className="illustration ">
@@ -407,17 +411,20 @@ const LandingPage = () => {
             <p className="highly">
               I build intelligent automation systems and production-ready
               platforms for businesses across Africa and internationally. My
-              work spans complete system architecture from React dashboards
-              with authentication to n8n workflow automation, AI voice
-              agents, and database design.{" "}
+              work spans complete system architecture from React dashboards with
+              authentication to n8n workflow automation, AI voice agents,
+              database design, and SaaS product development.{" "}
               <span>
                 I specialise in turning manual business operations into
                 automated platforms that clients log into every day without
                 thinking about the technology underneath.{" "}
               </span>
-              Co-Founder and Technical Lead at Automation Prime Africa where
-              we design and deploy automation solutions for healthcare,
-              legal, energy, hospitality, and interpreting services.
+              I have delivered systems across healthcare, legal, hospitality,
+              interpreting, and education, including a school financial
+              transparency platform built on Supabase with role-based access and
+              two-person approval workflows. Co-Founder and Technical Lead at
+              Automation Prime Africa where we design and deploy automation
+              solutions for businesses across the continent and internationally.
             </p>
 
             <div
@@ -428,7 +435,7 @@ const LandingPage = () => {
                 <p className="texnum">Years of Experience</p>
               </div>
               <div className="abnum2">
-                <p className="plusnum">10+</p>
+                <p className="plusnum">16+</p>
                 <p className="texnum">Successfully Completed Projects</p>
               </div>
               {/* <div className="abnum3">
@@ -667,7 +674,6 @@ const LandingPage = () => {
           My Projects
         </p>
         <div className="proo">
-
           {/* ── Featured Project 1 — OrthoClinic Pro ── */}
           <div
             className="feat-card reveal-from-left"
@@ -677,7 +683,9 @@ const LandingPage = () => {
               alt="OrthoClinic Pro"
             />
             <div className="feat-card-body">
-              <p className="feat-title">OrthoClinic Pro: Clinic Management Platform</p>
+              <p className="feat-title">
+                OrthoClinic Pro: Clinic Management Platform
+              </p>
               <p className="feat-desc">
                 Complete clinic management platform with 5 automated n8n
                 workflows, a branded staff dashboard and a public booking page
@@ -709,7 +717,9 @@ const LandingPage = () => {
               alt="LegalFlow AI"
             />
             <div className="feat-card-body">
-              <p className="feat-title">LegalFlow AI: Law Firm Case Management</p>
+              <p className="feat-title">
+                LegalFlow AI: Law Firm Case Management
+              </p>
               <p className="feat-desc">
                 Case management platform with 6 interconnected n8n workflows
                 covering intake, billing, deadlines and daily briefings
@@ -741,7 +751,9 @@ const LandingPage = () => {
               alt="Automation Prime Africa"
             />
             <div className="feat-card-body">
-              <p className="feat-title">Automation Prime Africa: Company Website</p>
+              <p className="feat-title">
+                Automation Prime Africa: Company Website
+              </p>
               <p className="feat-desc">
                 Dark premium theme with gold accents, animated hero, embedded
                 Calendly booking and live client demo showcases
@@ -771,7 +783,9 @@ const LandingPage = () => {
               alt="Mama Tees Kitchen"
             />
             <div className="feat-card-body">
-              <p className="feat-title">Mama Tee's Kitchen: AI Voice Concierge</p>
+              <p className="feat-title">
+                Mama Tee's Kitchen: AI Voice Concierge
+              </p>
               <p className="feat-desc">
                 Live 24/7 AI phone agent handling orders, reservations and
                 escalations with 3 independent n8n backend workflows
@@ -794,6 +808,112 @@ const LandingPage = () => {
             </div>
           </div>
 
+          {/* ── Featured Project 5 — Horizon Interpreters ── */}
+          <div
+            className="feat-card reveal-from-left"
+            data-sr="enter left 50px over 1s">
+            <img
+              src={projHorizon}
+              alt="Horizon Interpreters"
+            />
+            <div className="feat-card-body">
+              <p className="feat-title">
+                Horizon Interpreters: Professional Interpreting Platform
+              </p>
+              <p className="feat-desc">
+                Complete digital platform for a UK-based interpreting service
+                covering 47 languages. Custom website with animated hero and
+                booking form, Airtable database, 3 n8n workflows for booking
+                processing, reminders, and invoicing, Telegram notifications,
+                and Cloudflare email routing. Delivered as a paid client
+                project.
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">React</p>
+                <p className="csss">n8n</p>
+                <p className="jsss">Airtable</p>
+                <p className="appp">Tailwind CSS</p>
+                <p className="n8nn">Telegram</p>
+              </div>
+              <div className="feat-btns">
+                <a
+                  href="https://horizoninterpreters.uk"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <button className="feat-live border-0">View Live</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* ── Featured Project 6 — Ember & Bun ── */}
+          <div
+            className="feat-card reveal-from-right"
+            data-sr="enter right 50px over 1s">
+            <img
+              src={projEmberbun}
+              alt="Ember and Bun"
+            />
+            <div className="feat-card-body">
+              <p className="feat-title">
+                Ember &amp; Bun: AI Voice Demo Restaurant
+              </p>
+              <p className="feat-desc">
+                Demo restaurant landing page with embedded browser-based AI
+                voice calling. Visitors click a button and talk to an AI agent
+                directly in the browser without leaving the page. No external
+                redirects, no third-party branding.
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">React</p>
+                <p className="csss">Vapi SDK</p>
+                <p className="jsss">Tailwind CSS</p>
+              </div>
+              <div className="feat-btns">
+                <a
+                  href="https://ember-and-bun-gules.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <button className="feat-live border-0">View Live</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* ── Featured Project 7 — LedgerEd ── */}
+          <div
+            className="feat-card reveal-from-left"
+            data-sr="enter left 50px over 1s">
+            <img
+              src={projLedgered}
+              alt="LedgerEd"
+            />
+            <div className="feat-card-body">
+              <p className="feat-title">
+                LedgerEd: School Financial Transparency Platform
+              </p>
+              <p className="feat-desc">
+                SaaS platform giving school proprietors real-time visibility
+                into fee collection, payroll, and expenses. Built on Supabase
+                with role-based access for four user types, two-person payment
+                verification, automated receipt generation, and comprehensive
+                financial reporting.
+              </p>
+              <div className="techno feat-tags">
+                <p className="httt">React</p>
+                <p className="csss">Supabase</p>
+                <p className="jsss">Tailwind CSS</p>
+                <p className="appp">n8n</p>
+              </div>
+              <div className="feat-btns">
+                <button
+                  className="feat-live border-0"
+                  disabled>
+                  Coming Soon
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
         <Link
           to="top"

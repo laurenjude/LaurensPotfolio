@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1008" viewBox="0 0 1920 1008">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1a2b"/>
+      <stop offset="100%" stop-color="#14243d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#3ecf8e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1008" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1920" height="10" fill="url(#accent)"/>
+  <rect x="0" y="998" width="1920" height="10" fill="url(#accent)"/>
+  <g fill="url(#accent)" opacity="0.8">
+    <rect x="800" y="420" width="60" height="120" rx="8"/>
+    <rect x="890" y="360" width="60" height="180" rx="8"/>
+    <rect x="980" y="300" width="60" height="240" rx="8"/>
+    <rect x="1070" y="390" width="60" height="150" rx="8"/>
+  </g>
+  <text x="960" y="640" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="80" font-weight="700" fill="#ffffff">LedgerEd</text>
+  <text x="960" y="690" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#8fb4d1" letter-spacing="4">SCHOOL FINANCIAL TRANSPARENCY PLATFORM</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <rect x="680" y="740" width="150" height="46" rx="23" fill="#7b1fa2" opacity="0.85"/>
+    <text x="755" y="770">React</text>
+    <rect x="850" y="740" width="180" height="46" rx="23" fill="#3ecf8e" opacity="0.85"/>
+    <text x="940" y="770">Supabase</text>
+    <rect x="1050" y="740" width="190" height="46" rx="23" fill="#06b6d4" opacity="0.85"/>
+    <text x="1145" y="770">Tailwind</text>
+    <rect x="1260" y="740" width="190" height="46" rx="23" fill="#a78bfa" opacity="0.85"/>
+    <text x="1355" y="770">n8n</text>
+  </g>
+</svg>
